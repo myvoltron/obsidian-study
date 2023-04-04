@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "1cb3d8e04088ba87",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa80bf844154a9f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c16e7f83ea90f96d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "error handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1efc302b31d41db7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "패키지 매니저/yarn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c025c08dbd0019d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "068eec4e387fe1eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe4df59a143d7373",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48629f613380c07b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "668511922a48e1b8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6bfc3be2b3864dbe",
+    "type": "split",
+    "children": [
+      {
+        "id": "06242139d255f0c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a0b1b46c3bdf2aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "패키지 매니저/yarn.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5b949c25633867a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "패키지 매니저/yarn.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2d763f3d5c8eec63",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f3649eae8a925dfe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "패키지 매니저/yarn.md"
+              }
+            }
+          },
+          {
+            "id": "eb6d476d15e97f7b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "fe4df59a143d7373",
+  "lastOpenFiles": [
+    "ZipFs.png",
+    "패키지 매니저/버전 관리.md",
+    "패키지 매니저/yarn.md",
+    "패키지 매니저",
+    "error handling.md",
+    "Excalidraw/Drawing 2023-03-28 23.41.21.excalidraw.md",
+    "Excalidraw/Drawing 2023-03-28 23.41.26.excalidraw.md",
+    "Excalidraw",
+    "node.js/특징.md",
+    "node.js/모듈 시스템.md",
+    "node.js/내장 모듈.md",
+    "node.js/내장 객체.md",
+    "docker/docker 기초.md",
+    "무제 파일.canvas",
+    "docker/docker compose 명령어 모음.md",
+    "docker/docker 명령어 모음.md",
+    "logging.md",
+    "docker",
+    "node.js/패키지 매니저.md",
+    "useful commands/윈도우10 단축키 모음.md",
+    "network/websocket.md",
+    "network",
+    "og-image.png.md",
+    "useful commands",
+    "git",
+    "mysql",
+    "typescript",
+    "javascript",
+    "node.js",
+    "무제 파일 1.canvas",
+    "2023-03-19.md",
+    "무제 파일 4.canvas",
+    "무제 파일 3.canvas",
+    "무제 파일 2.canvas",
+    "테스트.md",
+    "2023-03-13.md"
+  ]
+}
