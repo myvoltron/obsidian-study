@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "node.js/Node.js에 대해서.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "node.js/Node.js에 대해서.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "node.js/Node.js에 대해서.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "node.js/Node.js에 대해서.md"
+                "file": "README.md"
               }
             }
           },
@@ -153,13 +153,15 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "81c5751da638e1dd",
   "lastOpenFiles": [
+    "node.js/Node.js에 대해서.md",
+    "README.md",
     "linux/Linux commands.md",
     "nestjs",
     "logging.md",
@@ -178,7 +180,6 @@
     "node.js/모듈 시스템.md",
     "node.js/내장 모듈.md",
     "node.js/내장 객체.md",
-    "node.js/Node.js에 대해서.md",
     "node.js/패키지 매니저.md",
     "linux/프로세스 명령어.md",
     "linux/SSH.md",
