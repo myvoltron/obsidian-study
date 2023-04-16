@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a7eeb9dd42aafb49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md"
               }
             }
           },
@@ -171,10 +158,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7eeb9dd42aafb49",
+  "active": "fe4df59a143d7373",
   "lastOpenFiles": [
-    "error handling.md",
     "conflict-files-obsidian-git.md",
+    "typescript/error handling.md",
     "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
     "README.md",
     "devops/git/secret 값을 커밋했을 때 되돌리는 방법.md",
@@ -182,7 +169,7 @@
     "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
     "devops/docker/Yarn Berry Dockerizing.md",
     "typeorm",
-    "logging.md",
+    "typescript/logging.md",
     "node.js/모듈 시스템.md",
     "[Promise.all().md",
     "mysql/Bulk Insert.md",
