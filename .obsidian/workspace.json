@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c71bac60e72b6081",
+        "id": "6042aea9d1d46e12",
         "type": "tabs",
         "children": [
           {
-            "id": "ca4eb36ef24bf040",
+            "id": "3f0f6fbe3342212d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+                "file": "node.js/패키지 매니저/yarn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad3c33a7c3a5efd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typeorm/simple-json.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+                "file": "typeorm/simple-json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+                "file": "typeorm/simple-json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md"
+                "file": "typeorm/simple-json.md"
               }
             }
           },
@@ -153,50 +166,50 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "fe4df59a143d7373",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "typescript/error handling.md",
-    "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
-    "README.md",
-    "devops/git/secret 값을 커밋했을 때 되돌리는 방법.md",
-    "typeorm/Entity metadata for anything was not found 에러 해결.md",
-    "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
-    "devops/docker/Yarn Berry Dockerizing.md",
-    "typeorm",
     "typescript/logging.md",
-    "node.js/모듈 시스템.md",
-    "[Promise.all().md",
-    "mysql/Bulk Insert.md",
-    "javascript/ES6.md",
-    "javascript/JSDoc.md",
-    "mysql/TEXT vs JSON 타입.md",
-    "javascript/for await 문법.md",
-    "mysql/트랜잭션 격리성.md",
-    "node.js/내장 모듈.md",
+    "typescript/error handling.md",
+    "typescript",
+    "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
+    "typeorm/Entity metadata for anything was not found 에러 해결.md",
     "node.js/내장 기능.md",
-    "linux/Linux commands.md",
-    "devops",
-    "computer science/무제 파일.md",
-    "computer science/algorithm",
-    "computer science/data structure",
-    "computer science/computer architecture",
-    "computer science/os",
-    "computer science",
-    "devops/git/git flow.md",
+    "mysql/트랜잭션 격리성.md",
+    "mysql/TEXT vs JSON 타입.md",
+    "mysql/Bulk Insert.md",
+    "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+    "javascript/JSDoc.md",
     "devops/git/버전 관리.md",
+    "devops/git/secret 값을 커밋했을 때 되돌리는 방법.md",
     "devops/git/git 심화.md",
+    "devops/git/git 기초.md",
+    "devops/git/git flow.md",
+    "devops/docker/docker 명령어 모음.md",
+    "devops/docker/docker 기초.md",
+    "devops/docker/docker compose 명령어 모음.md",
+    "devops/docker/Yarn Berry Dockerizing.md",
+    "devops/git",
+    "devops/docker",
+    "devops",
+    "computer science/network/네트워크 기초.md",
+    "computer science/network/websocket.md",
+    "computer science/network",
+    "computer science",
+    "node.js/패키지 매니저/yarn.md",
+    "typeorm/simple-json.md",
+    "typeorm",
+    "node.js/패키지 매니저/버전 관리.md",
+    "ZipFs.png",
+    "README.md",
     "node.js/Node.js에 대해서.md",
     "nestjs",
-    "computer science/network/네트워크 기초.md",
     "blockchain/폴리곤",
     "blockchain/이더리움",
-    "ZipFs.png",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
