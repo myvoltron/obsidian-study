@@ -13,13 +13,134 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+                "file": "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c5cc358038a63f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devops/docker/docker compose 명령어 모음.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a19605ed1d65364d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer science/network/로드 밸런싱 개념.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "508f283b027473d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/logging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0db135253277391",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "node.js/패키지 매니저/yarn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e87fdd907f14cffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mongo/mongo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f2d783736861a78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mysql/GROUP BY.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9278a6cb3fcd9e6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mysql/Join.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b267d4625763b0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blockchain/스테이킹.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d857c268bac416c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blockchain/이더리움/EOA, CA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d75642b90339129f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blockchain/이더리움/트랜잭션 종류.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -85,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+                "file": "blockchain/이더리움/트랜잭션 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+                "file": "blockchain/이더리움/트랜잭션 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/주석 간지나게 쓰는법 feat. JSDoc.md"
+                "file": "blockchain/이더리움/트랜잭션 종류.md"
               }
             }
           },
@@ -158,44 +279,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe4df59a143d7373",
+  "active": "d75642b90339129f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "typeorm/무제 파일.md",
+    "blockchain/블록체인.md",
+    "blockchain/이더리움/이더리움 계정.md",
+    "blockchain/이더리움/트랜잭션 종류.md",
+    "blockchain/이더리움/EOA, CA.md",
+    "blockchain/스테이킹.md",
+    "aws",
+    "mysql/Join.md",
+    "mysql/GROUP BY.md",
+    "mongo/mongo.md",
+    "node.js/패키지 매니저/yarn.md",
+    "mongo",
+    "typescript/logging.md",
+    "typescript/주석 가이드.md",
+    "computer science/network/로드 밸런싱 개념.md",
+    "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
+    "devops/docker/docker 기초.md",
+    "devops/docker/docker 명령어 모음.md",
+    "devops/docker/setenv The parameter is incorrect 에러.md",
     "typescript/error handling.md",
-    "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
     "README.md",
+    "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
+    "conflict-files-obsidian-git.md",
     "devops/git/secret 값을 커밋했을 때 되돌리는 방법.md",
     "typeorm/Entity metadata for anything was not found 에러 해결.md",
     "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
-    "devops/docker/Yarn Berry Dockerizing.md",
     "typeorm",
-    "typescript/logging.md",
     "node.js/모듈 시스템.md",
     "[Promise.all().md",
-    "mysql/Bulk Insert.md",
-    "javascript/ES6.md",
-    "javascript/JSDoc.md",
-    "mysql/TEXT vs JSON 타입.md",
-    "javascript/for await 문법.md",
-    "mysql/트랜잭션 격리성.md",
-    "node.js/내장 모듈.md",
-    "node.js/내장 기능.md",
-    "linux/Linux commands.md",
     "devops",
-    "computer science/무제 파일.md",
     "computer science/algorithm",
     "computer science/data structure",
     "computer science/computer architecture",
     "computer science/os",
     "computer science",
-    "devops/git/git flow.md",
-    "devops/git/버전 관리.md",
-    "devops/git/git 심화.md",
-    "node.js/Node.js에 대해서.md",
     "nestjs",
-    "computer science/network/네트워크 기초.md",
-    "blockchain/폴리곤",
-    "blockchain/이더리움",
     "ZipFs.png",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
