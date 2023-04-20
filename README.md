@@ -1,2 +1,3 @@
-# obsidian-study
-공부 자료 모음집
+### obsidian-study
+개인적으로 공부하는 자료를 정리하는 공간입니다. 
+
