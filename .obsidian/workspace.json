@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "b759c07666d36097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
@@ -150,8 +167,25 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "79a2d9fde465debb",
+  "active": "b759c07666d36097",
   "lastOpenFiles": [
+    "nestjs/주석 가이드.md",
+    "conflict-files-obsidian-git.md",
+    "typescript/error handling.md",
+    "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
+    "mysql/Join.md",
+    "mysql/GROUP BY.md",
+    "mongo/mongo.md",
+    "mongo",
+    "devops/docker/setenv The parameter is incorrect 에러.md",
+    "computer science/network/로드 밸런싱 개념.md",
+    "blockchain/이더리움/트랜잭션 종류.md",
+    "blockchain/이더리움/이더리움 계정.md",
+    "blockchain/이더리움/EOA, CA.md",
+    "blockchain/이더리움",
+    "blockchain/스테이킹.md",
+    "blockchain/블록체인.md",
+    "blockchain",
     "typeorm/seeder 설정하기.md",
     "node.js/패키지 매니저/yarn.md",
     "nestjs/무제 파일.md",
@@ -167,28 +201,11 @@
     "nestjs/logging.md",
     "nestjs/error handling.md",
     "typescript",
-    "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
-    "typeorm/Entity metadata for anything was not found 에러 해결.md",
-    "node.js/내장 기능.md",
-    "mysql/트랜잭션 격리성.md",
-    "mysql/TEXT vs JSON 타입.md",
-    "mysql/Bulk Insert.md",
-    "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
-    "javascript/JSDoc.md",
-    "devops/git/버전 관리.md",
-    "devops/git/secret 값을 커밋했을 때 되돌리는 방법.md",
-    "devops/git/git 심화.md",
-    "devops/git/git 기초.md",
-    "devops/git/git flow.md",
-    "devops/docker/docker 명령어 모음.md",
     "devops/git",
     "devops/docker",
     "devops",
     "computer science/network",
-    "computer science",
-    "typeorm",
     "ZipFs.png",
-    "nestjs",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
