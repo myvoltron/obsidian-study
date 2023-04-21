@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6042aea9d1d46e12",
+        "id": "cd75a6cad8f31a2f",
         "type": "tabs",
         "children": [
           {
-            "id": "3f0f6fbe3342212d",
+            "id": "79a2d9fde465debb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "node.js/패키지 매니저/yarn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad3c33a7c3a5efd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "typeorm/simple-json.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typeorm/simple-json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typeorm/simple-json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "typeorm/simple-json.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,10 +150,22 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "fe4df59a143d7373",
+  "active": "79a2d9fde465debb",
   "lastOpenFiles": [
-    "typescript/logging.md",
-    "typescript/error handling.md",
+    "typeorm/seeder 설정하기.md",
+    "node.js/패키지 매니저/yarn.md",
+    "nestjs/무제 파일.md",
+    "typeorm/migration 설정하기.md",
+    "nestjs/NestJS Scheduler.md",
+    "nestjs/NestJS Conventions.md",
+    "nestjs/NestJS Config.md",
+    "obsidian/gitignore 설정.md",
+    "nestjs",
+    "obsidian/MacOS - xcrun invalid active developer path error 해결.md",
+    "typeorm/simple-json.md",
+    "obsidian",
+    "nestjs/logging.md",
+    "nestjs/error handling.md",
     "typescript",
     "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
     "typeorm/Entity metadata for anything was not found 에러 해결.md",
@@ -190,26 +181,14 @@
     "devops/git/git 기초.md",
     "devops/git/git flow.md",
     "devops/docker/docker 명령어 모음.md",
-    "devops/docker/docker 기초.md",
-    "devops/docker/docker compose 명령어 모음.md",
-    "devops/docker/Yarn Berry Dockerizing.md",
     "devops/git",
     "devops/docker",
     "devops",
-    "computer science/network/네트워크 기초.md",
-    "computer science/network/websocket.md",
     "computer science/network",
     "computer science",
-    "node.js/패키지 매니저/yarn.md",
-    "typeorm/simple-json.md",
     "typeorm",
-    "node.js/패키지 매니저/버전 관리.md",
     "ZipFs.png",
-    "README.md",
-    "node.js/Node.js에 대해서.md",
     "nestjs",
-    "blockchain/폴리곤",
-    "blockchain/이더리움",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
