@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ea003e0ed8bc8ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blockchain/이더리움/트랜잭션 종류.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blockchain/이더리움/트랜잭션 종류.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blockchain/이더리움/트랜잭션 종류.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -158,10 +171,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d75642b90339129f",
+  "active": "5ea003e0ed8bc8ff",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "blockchain/이더리움/트랜잭션 종류.md",
+    "conflict-files-obsidian-git.md",
+    "typeorm/seeder 설정하기.md",
+    "typeorm/migration 설정하기.md",
+    "obsidian/MacOS - xcrun invalid active developer path error 해결.md",
+    "obsidian/gitignore 설정.md",
+    "obsidian",
+    "nestjs/주석 가이드.md",
+    "nestjs/logging.md",
+    "nestjs/error handling.md",
+    "nestjs/NestJS Scheduler.md",
+    "nestjs/NestJS Conventions.md",
+    "nestjs/NestJS Config.md",
     "typeorm/simple-json.md",
     "typeorm/무제 파일.md",
     "blockchain/블록체인.md",
@@ -178,24 +202,13 @@
     "typescript/주석 가이드.md",
     "computer science/network/로드 밸런싱 개념.md",
     "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
-    "devops/docker/docker 기초.md",
-    "devops/docker/docker 명령어 모음.md",
-    "devops/docker/setenv The parameter is incorrect 에러.md",
-    "typescript/error handling.md",
-    "README.md",
-    "javascript/주석 간지나게 쓰는법 feat. JSDoc.md",
-    "devops/git/secret 값을 커밋했을 때 되돌리는 방법.md",
-    "typeorm/Entity metadata for anything was not found 에러 해결.md",
-    "typeorm/Query Builder에서 Conditional Clauses 쓰기.md",
     "typeorm",
-    "node.js/모듈 시스템.md",
     "devops",
     "computer science/algorithm",
     "computer science/data structure",
     "computer science/computer architecture",
     "computer science/os",
     "computer science",
-    "nestjs",
     "ZipFs.png",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
