@@ -8,126 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca4eb36ef24bf040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c5cc358038a63f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devops/docker/docker compose 명령어 모음.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a19605ed1d65364d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer science/network/로드 밸런싱 개념.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "508f283b027473d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "typescript/logging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0db135253277391",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "node.js/패키지 매니저/yarn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e87fdd907f14cffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mongo/mongo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f2d783736861a78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mysql/GROUP BY.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9278a6cb3fcd9e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mysql/Join.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b267d4625763b0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blockchain/스테이킹.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d857c268bac416c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blockchain/이더리움/EOA, CA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d75642b90339129f",
             "type": "leaf",
             "state": {
@@ -138,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6b0f151863ba1cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "blockchain/이더리움/트랜잭션 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "blockchain/이더리움/트랜잭션 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "blockchain/이더리움/트랜잭션 종류.md"
               }
             }
           },
@@ -291,10 +158,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b0f151863ba1cac",
+  "active": "d75642b90339129f",
   "lastOpenFiles": [
-    "blockchain/이더리움/트랜잭션 종류.md",
     "conflict-files-obsidian-git.md",
+    "blockchain/이더리움/트랜잭션 종류.md",
     "typeorm/simple-json.md",
     "typeorm/무제 파일.md",
     "blockchain/블록체인.md",
