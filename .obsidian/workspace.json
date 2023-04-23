@@ -13,26 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blockchain/이더리움/트랜잭션 종류.md",
+                "file": "nestjs/error handling.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5ea003e0ed8bc8ff",
+            "id": "c2430516c4f1cc15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "nestjs/error handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "735a17f88b006241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nestjs/NestJS Conventions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "nestjs/NestJS Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "nestjs/NestJS Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "nestjs/NestJS Conventions.md"
               }
             }
           },
@@ -171,8 +183,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5ea003e0ed8bc8ff",
+  "active": "735a17f88b006241",
   "lastOpenFiles": [
+    "nestjs/NestJS Config.md",
+    "nestjs/logging.md",
+    "nestjs/error handling.md",
+    "nestjs/NestJS Conventions.md",
+    "nestjs/주석 가이드.md",
+    "nestjs/NestJS Scheduler.md",
+    "blockchain/이더리움/이더리움 batch.md",
+    "typescript/error handling.md",
+    "computer science/computer architecture/ddd.md",
     "blockchain/이더리움/트랜잭션 종류.md",
     "conflict-files-obsidian-git.md",
     "typeorm/seeder 설정하기.md",
@@ -180,12 +201,6 @@
     "obsidian/MacOS - xcrun invalid active developer path error 해결.md",
     "obsidian/gitignore 설정.md",
     "obsidian",
-    "nestjs/주석 가이드.md",
-    "nestjs/logging.md",
-    "nestjs/error handling.md",
-    "nestjs/NestJS Scheduler.md",
-    "nestjs/NestJS Conventions.md",
-    "nestjs/NestJS Config.md",
     "typeorm/simple-json.md",
     "typeorm/무제 파일.md",
     "blockchain/블록체인.md",
@@ -199,9 +214,6 @@
     "node.js/패키지 매니저/yarn.md",
     "mongo",
     "typescript/logging.md",
-    "typescript/주석 가이드.md",
-    "computer science/network/로드 밸런싱 개념.md",
-    "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
     "typeorm",
     "devops",
     "computer science/algorithm",
