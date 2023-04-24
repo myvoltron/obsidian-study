@@ -14,21 +14,8 @@
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "b759c07666d36097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,10 +150,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b759c07666d36097",
+  "active": "79a2d9fde465debb",
   "lastOpenFiles": [
-    "nestjs/주석 가이드.md",
     "conflict-files-obsidian-git.md",
+    "nestjs/주석 가이드.md",
     "typescript/error handling.md",
     "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
     "mysql/Join.md",
