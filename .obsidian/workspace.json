@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "nestjs/NestJS Conventions.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "nestjs/NestJS Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "nestjs/NestJS Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "nestjs/NestJS Conventions.md"
               }
             }
           },
@@ -169,18 +169,18 @@
   },
   "active": "46583bd99f298429",
   "lastOpenFiles": [
+    "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
+    "devops/docker/setenv The parameter is incorrect 에러.md",
     "conflict-files-obsidian-git.md",
     "computer science/computer architecture/ddd.md",
     "computer science/computer architecture",
     "blockchain/이더리움/이더리움 batch.md",
     "nestjs/주석 가이드.md",
     "typescript/error handling.md",
-    "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
     "mysql/Join.md",
     "mysql/GROUP BY.md",
     "mongo/mongo.md",
     "mongo",
-    "devops/docker/setenv The parameter is incorrect 에러.md",
     "computer science/network/로드 밸런싱 개념.md",
     "blockchain/이더리움/트랜잭션 종류.md",
     "blockchain/이더리움/이더리움 계정.md",
