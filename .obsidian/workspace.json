@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cd75a6cad8f31a2f",
+        "id": "3cf6bda2f741bf2b",
         "type": "tabs",
         "children": [
           {
-            "id": "79a2d9fde465debb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "46583bd99f298429",
+            "id": "413a71b790b94053",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nestjs/NestJS Conventions.md",
+                "file": "computer science/computer architecture/CQRS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nestjs/NestJS Conventions.md",
+                "file": "computer science/computer architecture/CQRS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nestjs/NestJS Conventions.md",
+                "file": "computer science/computer architecture/CQRS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nestjs/NestJS Conventions.md"
+                "file": "computer science/computer architecture/CQRS.md"
               }
             }
           },
@@ -167,12 +158,28 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "46583bd99f298429",
+  "active": "413a71b790b94053",
   "lastOpenFiles": [
+    "computer science/computer architecture/OOP.md",
+    "computer science/computer architecture/MSA.md",
+    "computer science/computer architecture/DDD.md",
+    "computer science/computer architecture/CQRS.md",
     "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
+    "tools/dataGrip/팁.md",
+    "nestjs/BullMQ 기초.md",
+    "tools/dataGrip",
+    "tools/vscode",
+    "tools",
+    "devops/docker/docker 멀티 프로세싱.md",
+    "nestjs/모노레포.md",
+    "devops/무중단 배포.md",
+    "node.js/pm2/무중단 배포.md",
+    "node.js/pm2/pm2 기초.md",
+    "node.js/pm2/클러스터링.md",
+    "nestjs/NestJS Conventions.md",
+    "node.js/pm2",
     "devops/docker/setenv The parameter is incorrect 에러.md",
     "conflict-files-obsidian-git.md",
-    "computer science/computer architecture/ddd.md",
     "computer science/computer architecture",
     "blockchain/이더리움/이더리움 batch.md",
     "nestjs/주석 가이드.md",
@@ -186,25 +193,9 @@
     "blockchain/이더리움/이더리움 계정.md",
     "blockchain/이더리움/EOA, CA.md",
     "blockchain/이더리움",
-    "blockchain/스테이킹.md",
-    "blockchain/블록체인.md",
     "blockchain",
-    "typeorm/seeder 설정하기.md",
-    "node.js/패키지 매니저/yarn.md",
-    "nestjs/무제 파일.md",
-    "typeorm/migration 설정하기.md",
-    "nestjs/NestJS Scheduler.md",
-    "nestjs/NestJS Conventions.md",
-    "nestjs/NestJS Config.md",
-    "obsidian/gitignore 설정.md",
     "nestjs",
-    "obsidian/MacOS - xcrun invalid active developer path error 해결.md",
-    "typeorm/simple-json.md",
     "obsidian",
-    "typescript",
-    "devops/git",
-    "devops/docker",
-    "devops",
     "ZipFs.png",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
