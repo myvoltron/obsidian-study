@@ -1,0 +1,1 @@
+https://rlawls1991.tistory.com/entry/MySQL-Replication#:~:text=MySQL%20Replication%EC%9D%B4%EB%9E%80%3F,Master%20%2F%20Slave%20%EC%9C%BC%EB%A1%9C%20%EB%90%98%EC%96%B4%EC%9E%88%EB%8B%A4.

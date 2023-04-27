@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer science/computer architecture/CQRS.md",
+                "file": "nestjs/모노레포.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd5677564658324a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/index.ts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f17a7e3915e6dffe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mysql/connection pool.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67084ced4f0ed0c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mysql/Replication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44a36f285ea8bbaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mysql/트랜잭션 Lock.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer science/computer architecture/CQRS.md",
+                "file": "mysql/트랜잭션 Lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer science/computer architecture/CQRS.md",
+                "file": "mysql/트랜잭션 Lock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer science/computer architecture/CQRS.md"
+                "file": "mysql/트랜잭션 Lock.md"
               }
             }
           },
@@ -158,20 +207,24 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "413a71b790b94053",
+  "active": "44a36f285ea8bbaa",
   "lastOpenFiles": [
+    "mysql/Replication.md",
+    "mysql/트랜잭션 Lock.md",
+    "mysql/connection pool.md",
+    "typescript/index.ts.md",
+    "nestjs/모노레포.md",
+    "nestjs/BullMQ 기초.md",
+    "computer science/computer architecture/CQRS.md",
     "computer science/computer architecture/OOP.md",
     "computer science/computer architecture/MSA.md",
     "computer science/computer architecture/DDD.md",
-    "computer science/computer architecture/CQRS.md",
     "node.js/패키지 매니저/Yarn Berry Dockerizing.md",
     "tools/dataGrip/팁.md",
-    "nestjs/BullMQ 기초.md",
     "tools/dataGrip",
     "tools/vscode",
     "tools",
     "devops/docker/docker 멀티 프로세싱.md",
-    "nestjs/모노레포.md",
     "devops/무중단 배포.md",
     "node.js/pm2/무중단 배포.md",
     "node.js/pm2/pm2 기초.md",
@@ -188,10 +241,6 @@
     "mysql/GROUP BY.md",
     "mongo/mongo.md",
     "mongo",
-    "computer science/network/로드 밸런싱 개념.md",
-    "blockchain/이더리움/트랜잭션 종류.md",
-    "blockchain/이더리움/이더리움 계정.md",
-    "blockchain/이더리움/EOA, CA.md",
     "blockchain/이더리움",
     "blockchain",
     "nestjs",
