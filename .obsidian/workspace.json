@@ -8,78 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "413a71b790b94053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nestjs/모노레포.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd5677564658324a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "typescript/index.ts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f17a7e3915e6dffe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mysql/connection pool.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67084ced4f0ed0c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mysql/Replication.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44a36f285ea8bbaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mysql/트랜잭션 Lock.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1896f872008dd1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "읽을거리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "76b272434623f843",
             "type": "leaf",
             "state": {
@@ -91,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
