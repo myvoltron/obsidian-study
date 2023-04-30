@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf6bda2f741bf2b",
+        "id": "5fcaf478c6066f31",
         "type": "tabs",
         "children": [
           {
-            "id": "76b272434623f843",
+            "id": "b208c975ac2f7cc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/upsert.md",
+                "file": "mysql/대규모 데이터베이스에서 주의할 점.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/upsert.md",
+                "file": "mysql/대규모 데이터베이스에서 주의할 점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql/upsert.md",
+                "file": "mysql/대규모 데이터베이스에서 주의할 점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/upsert.md"
+                "file": "mysql/대규모 데이터베이스에서 주의할 점.md"
               }
             }
           },
@@ -158,14 +158,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "76b272434623f843",
+  "active": "b208c975ac2f7cc9",
   "lastOpenFiles": [
-    "읽을거리.md",
     "mysql/upsert.md",
+    "mysql/TEXT vs JSON 타입.md",
+    "mysql/Replication.md",
+    "mysql/Join.md",
+    "mysql/GROUP BY.md",
+    "mysql/connection pool.md",
+    "mysql/Bulk Insert.md",
+    "읽을거리.md",
     "mysql/트랜잭션 Lock.md",
     "무제 폴더",
-    "mysql/Replication.md",
-    "mysql/connection pool.md",
     "typescript/index.ts.md",
     "nestjs/모노레포.md",
     "nestjs/BullMQ 기초.md",
@@ -188,10 +192,6 @@
     "devops/docker/setenv The parameter is incorrect 에러.md",
     "conflict-files-obsidian-git.md",
     "computer science/computer architecture",
-    "blockchain/이더리움/이더리움 batch.md",
-    "nestjs/주석 가이드.md",
-    "typescript/error handling.md",
-    "mysql/Join.md",
     "mongo",
     "blockchain/이더리움",
     "blockchain",
