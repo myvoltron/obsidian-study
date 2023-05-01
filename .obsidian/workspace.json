@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/대규모 데이터베이스에서 주의할 점.md",
+                "file": "mysql/GROUP BY.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/대규모 데이터베이스에서 주의할 점.md",
+                "file": "mysql/GROUP BY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql/대규모 데이터베이스에서 주의할 점.md",
+                "file": "mysql/GROUP BY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/대규모 데이터베이스에서 주의할 점.md"
+                "file": "mysql/GROUP BY.md"
               }
             }
           },
@@ -160,13 +160,16 @@
   },
   "active": "b208c975ac2f7cc9",
   "lastOpenFiles": [
+    "node.js/멀티 쓰레드.md",
+    "node.js/멀티 프로세싱.md",
+    "mysql/GROUP BY.md",
+    "mysql/connection pool.md",
+    "mysql/Bulk Insert.md",
+    "mysql/대규모 데이터베이스에서 주의할 점.md",
     "mysql/upsert.md",
     "mysql/TEXT vs JSON 타입.md",
     "mysql/Replication.md",
     "mysql/Join.md",
-    "mysql/GROUP BY.md",
-    "mysql/connection pool.md",
-    "mysql/Bulk Insert.md",
     "읽을거리.md",
     "mysql/트랜잭션 Lock.md",
     "무제 폴더",
@@ -187,10 +190,7 @@
     "node.js/pm2/무중단 배포.md",
     "node.js/pm2/pm2 기초.md",
     "node.js/pm2/클러스터링.md",
-    "nestjs/NestJS Conventions.md",
     "node.js/pm2",
-    "devops/docker/setenv The parameter is incorrect 에러.md",
-    "conflict-files-obsidian-git.md",
     "computer science/computer architecture",
     "mongo",
     "blockchain/이더리움",
