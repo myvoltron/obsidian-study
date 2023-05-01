@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/GROUP BY.md",
+                "file": "mysql/Replication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/GROUP BY.md",
+                "file": "mysql/Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql/GROUP BY.md",
+                "file": "mysql/Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/GROUP BY.md"
+                "file": "mysql/Replication.md"
               }
             }
           },
@@ -160,18 +160,21 @@
   },
   "active": "b208c975ac2f7cc9",
   "lastOpenFiles": [
-    "node.js/멀티 쓰레드.md",
-    "node.js/멀티 프로세싱.md",
-    "mysql/GROUP BY.md",
-    "mysql/connection pool.md",
-    "mysql/Bulk Insert.md",
+    "mysql/트랜잭션 Lock.md",
+    "mysql/자주 쓰는 문법 정리.md",
+    "mysql/인덱스.md",
     "mysql/대규모 데이터베이스에서 주의할 점.md",
     "mysql/upsert.md",
     "mysql/TEXT vs JSON 타입.md",
+    "mysql/트랜잭션 격리성.md",
     "mysql/Replication.md",
+    "mysql/GROUP BY.md",
+    "node.js/멀티 쓰레드.md",
+    "node.js/멀티 프로세싱.md",
+    "mysql/connection pool.md",
+    "mysql/Bulk Insert.md",
     "mysql/Join.md",
     "읽을거리.md",
-    "mysql/트랜잭션 Lock.md",
     "무제 폴더",
     "typescript/index.ts.md",
     "nestjs/모노레포.md",
@@ -187,9 +190,6 @@
     "tools",
     "devops/docker/docker 멀티 프로세싱.md",
     "devops/무중단 배포.md",
-    "node.js/pm2/무중단 배포.md",
-    "node.js/pm2/pm2 기초.md",
-    "node.js/pm2/클러스터링.md",
     "node.js/pm2",
     "computer science/computer architecture",
     "mongo",
