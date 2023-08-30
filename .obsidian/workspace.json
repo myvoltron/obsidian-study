@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d4079bc4dbaa504d",
+        "id": "d4cf23a49b309b41",
         "type": "tabs",
         "children": [
           {
-            "id": "15ee9eae5bbaa50c",
+            "id": "d828bc1af00591bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/무중단 배포.md",
+                "file": "nestjs/techniques/error handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "34ee8bfc1c10d51c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,9 +93,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/무중단 배포.md",
+                "file": "nestjs/techniques/error handling.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/무중단 배포.md",
+                "file": "nestjs/techniques/error handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/무중단 배포.md"
+                "file": "nestjs/techniques/error handling.md"
               }
             }
           },
@@ -158,10 +166,29 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "15ee9eae5bbaa50c",
+  "active": "d828bc1af00591bf",
   "lastOpenFiles": [
-    "devops/git/버전 관리.md",
+    "nestjs/고민거리",
+    "nestjs/error history",
+    "typescript/error handling.md",
+    "nestjs/fundamentals/Provider 심화.md",
+    "nestjs/fundamentals/Lifecycle events.md",
+    "nestjs/fundamentals/Execution context.md",
+    "nestjs/techniques/error handling.md",
+    "nestjs/tips/모노레포.md",
+    "typescript/주석 가이드.md",
+    "nestjs/tips/NestJS Conventions.md",
+    "nestjs/techniques/NestJS Config.md",
+    "nestjs/tips",
+    "nestjs/techniques",
+    "nestjs/fundamentals",
+    "nestjs/techniques/logging.md",
+    "nestjs/techniques/BullMQ 기초.md",
+    "blockchain/이더리움/PoS (Proof of Stake).md",
+    "blockchain/비트코인/비트코인 기초.md",
+    "README.md",
     "devops/무중단 배포.md",
+    "devops/git/버전 관리.md",
     "node.js/pm2/무중단 배포.md",
     "node.js/pm2/클러스터링.md",
     "mysql/자주 쓰는 문법 정리.md",
@@ -171,31 +198,12 @@
     "mysql/TEXT vs JSON 타입.md",
     "mysql/Join.md",
     "mysql/Replication.md",
-    "mysql/GROUP BY.md",
-    "mysql/connection pool.md",
-    "mysql/Bulk Insert.md",
-    "mysql/트랜잭션 Lock.md",
-    "mysql/트랜잭션 격리성.md",
-    "node.js/멀티 쓰레드.md",
-    "node.js/멀티 프로세싱.md",
-    "읽을거리.md",
     "무제 폴더",
-    "typescript/index.ts.md",
-    "nestjs/모노레포.md",
-    "nestjs/BullMQ 기초.md",
-    "computer science/computer architecture/CQRS.md",
-    "computer science/computer architecture/OOP.md",
-    "computer science/computer architecture/MSA.md",
-    "computer science/computer architecture/DDD.md",
     "tools/dataGrip",
     "tools/vscode",
     "tools",
     "node.js/pm2",
     "computer science/computer architecture",
-    "mongo",
-    "blockchain/이더리움",
-    "blockchain",
-    "nestjs",
     "ZipFs.png",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
