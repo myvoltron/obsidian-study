@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nestjs/techniques/error handling.md",
+                "file": "nestjs/fundamentals/4. Lifecycle events.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nestjs/techniques/error handling.md",
+                "file": "nestjs/fundamentals/4. Lifecycle events.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nestjs/techniques/error handling.md",
+                "file": "nestjs/fundamentals/4. Lifecycle events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nestjs/techniques/error handling.md"
+                "file": "nestjs/fundamentals/4. Lifecycle events.md"
               }
             }
           },
@@ -168,13 +168,14 @@
   },
   "active": "d828bc1af00591bf",
   "lastOpenFiles": [
+    "nestjs/fundamentals/3. Execution context.md",
+    "nestjs/fundamentals/2. Asynchronous providers.md",
+    "nestjs/fundamentals/4. Lifecycle events.md",
+    "nestjs/fundamentals/1. Provider 심화.md",
+    "nestjs/techniques/error handling.md",
     "nestjs/고민거리",
     "nestjs/error history",
     "typescript/error handling.md",
-    "nestjs/fundamentals/Provider 심화.md",
-    "nestjs/fundamentals/Lifecycle events.md",
-    "nestjs/fundamentals/Execution context.md",
-    "nestjs/techniques/error handling.md",
     "nestjs/tips/모노레포.md",
     "typescript/주석 가이드.md",
     "nestjs/tips/NestJS Conventions.md",
@@ -203,7 +204,6 @@
     "tools/vscode",
     "tools",
     "node.js/pm2",
-    "computer science/computer architecture",
     "ZipFs.png",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
