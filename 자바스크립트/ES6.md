@@ -1,12 +1,13 @@
-https://merrily-code.tistory.com/214
-https://velog.io/@hiro2474/understandfor-await-of
+# References
+- https://merrily-code.tistory.com/214
+- https://velog.io/@hiro2474/understandfor-await-of
 
-### `Promise.all()`
+# 1. `Promise.all()`
 **먼저 어떻게 쓰는가?**
 우선 mdn 문서는 [여기](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all#description)를 참고하길 바란다.  
 
 
-문법
+## 1.1 문법
 ```javascript
 Promise.all(iterable);
 ```
@@ -19,7 +20,7 @@ Promise.all(iterable);
 -   객체에 프로미스가 없으면, **비동기적으로 이행하는** [`Promise`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise). 단, Google Chrome 58은 **이미 이행한** 프로미스를 반환합니다.
 -   그렇지 않은 경우, **대기 중**인 [`Promise`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise). 결과로 반환하는 프로미스는 인자의 모든 프로미스가 이행하거나 어떤 프로미스가 거부할 때 (호출 스택이 비는 즉시) **비동기적으로** 이행/거부합니다. "`Promise.all`의 동기성/비동기성" 예제를 참고하세요. 반환하는 프로미스의 이행 값은 매개변수로 주어진 프로미스의 순서와 일치하며, 완료 순서에 영향을 받지 않습니다.
 
-설명
+## 1.2 설명
 이 메서드는 여러 프로미스의 결과를 집계할 때 유용하게 사용할 수 있습니다. 일반적으로 다음 코드를 계속 실행하기 전에 서로 연관된 비동기 작업 여러 개가 모두 이행되어야 하는 경우에 사용됩니다.
 
 입력 값으로 들어온 프로미스 중 **하나라도** 거부 당하면 `Promise.all()`은 즉시 거부합니다. 이에 비해, [`Promise.allSettled()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)가 반환하는 프로미스는 이행/거부 여부에 관계없이 주어진 프로미스가 모두 완료될 때까지 기다립니다. 결과적으로, 주어진 이터러블의 모든 프로미스와 함수의 결과 값을 최종적으로 반환합니다.

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a28aa61eaadb704b",
+        "id": "4aa606a388ce551a",
         "type": "tabs",
         "children": [
           {
-            "id": "b732783bf85db86e",
+            "id": "0e714717cbf3f845",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "자바스크립트/error handling.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "자바스크립트/error handling.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "자바스크립트/error handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "자바스크립트/error handling.md"
+              }
             }
           },
           {
@@ -158,45 +166,45 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b732783bf85db86e",
+  "active": "0e714717cbf3f845",
   "lastOpenFiles": [
-    "컴퓨터 과학/os/무제 폴더",
-    "node.js/패키지 매니저/yarn.md",
-    "ZipFs.png",
-    "읽을거리.md",
-    "README.md",
-    "블록체인/스테이킹.md",
-    "개발 도구/무제 폴더",
-    "블록체인/블록체인.md",
+    "타입스크립트/주석 가이드.md",
+    "타입스크립트/index.ts.md",
+    "자바스크립트/error handling.md",
+    "nestjs/techniques/7. Logging.md",
+    "nestjs/techniques/6. Queues.md",
+    "nestjs/techniques/5. Scheduler.md",
+    "nestjs/techniques/4. Versioning.md",
+    "nestjs/techniques/3. Serialization.md",
+    "nestjs/techniques/2. Validation.md",
+    "nestjs/techniques/1. Config.md",
+    "nestjs/techniques/error handling.md",
+    "nestjs/fundamentals/5. Testing.md",
     "nestjs/fundamentals/2. Asynchronous providers.md",
+    "nestjs/fundamentals/4. Lifecycle events.md",
+    "nestjs/fundamentals/3. Execution context.md",
+    "nestjs/tips/2. 모노레포.md",
+    "nestjs/tips/1. NestJS 컨벤션.md",
+    "linux/Linux commands.md",
+    "typeorm/fundamentals/1. migration 설정하기.md",
+    "개발 도구/macOS 개발 도구",
+    "typeorm/fundamentals/2. simple-json.md",
+    "typeorm/techniques/1. Query Builder에서 Conditional Clauses 쓰기.md",
+    "typeorm/error",
+    "typeorm/techniques/3. seeder 설정하기.md",
+    "typeorm/error/1. Entity metadata for anything was not found 에러 해결.md",
+    "자바스크립트/자주 쓰는 메서드 정리.md",
+    "자바스크립트/주석 간지나게 쓰는법 feat. JSDoc.md",
+    "자바스크립트/자주 쓰는 문법 정리.md",
+    "typeorm/techniques",
+    "typeorm/fundamentals",
+    "node.js/fundamentals",
+    "컴퓨터 과학/os/무제 폴더",
+    "ZipFs.png",
     "블록체인/솔라나",
     "블록체인/트론",
     "블록체인/파일코인",
     "블록체인/위믹스",
-    "블록체인/페이코인",
-    "nestjs/fundamentals/1. Provider 심화.md",
-    "nestjs/fundamentals/4. Lifecycle events.md",
-    "nestjs/fundamentals/3. Execution context.md",
-    "nestjs/techniques/error handling.md",
-    "nestjs/고민거리",
-    "nestjs/error history",
-    "타입스크립트/error handling.md",
-    "nestjs/tips/모노레포.md",
-    "타입스크립트/주석 가이드.md",
-    "nestjs/tips/NestJS Conventions.md",
-    "nestjs/techniques/NestJS Config.md",
-    "nestjs/tips",
-    "nestjs/techniques",
-    "nestjs/techniques/logging.md",
-    "nestjs/techniques/BullMQ 기초.md",
-    "블록체인/이더리움/PoS (Proof of Stake).md",
-    "블록체인/비트코인/비트코인 기초.md",
-    "데브옵스/무중단 배포.md",
-    "데브옵스/git/버전 관리.md",
-    "node.js/pm2/무중단 배포.md",
-    "node.js/pm2/클러스터링.md",
-    "mysql/자주 쓰는 문법 정리.md",
-    "mysql/인덱스.md",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",

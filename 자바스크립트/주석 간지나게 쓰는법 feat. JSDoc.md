@@ -10,4 +10,5 @@
 - https://jsdoc.app/index.html
 - [JSDoc를 사용해서 Javasript 문서화해보자! (tistory.com)](https://okayoon.tistory.com/entry/JSDoc%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-Javasript-%EB%AC%B8%EC%84%9C%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90)
 - [TypeScript: Documentation - JSDoc Reference (typescriptlang.org)](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)
+- https://okayoon.tistory.com/entry/JSDoc%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-Javasript-%EB%AC%B8%EC%84%9C%ED%99%94%ED%95%B4%EB%B3%B4%EC%9E%90
 <iframe src="https://www.youtube.com/embed/ORmnc-hLrYs"></iframe>
