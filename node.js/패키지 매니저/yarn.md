@@ -105,7 +105,6 @@ yarn --version
 
 
 ### VSCode ZipFs 익스텐션
-![[ZipFs.png]]
 Yarn berry에서는 의존성을 zip 파일로 관리하기 때문에 직접 파일을 보려면 VSCode에서 [ZipFS](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs)라는 익스텐션을 추가적으로 설치해야합니다. 
 이제 VSCode에서 Go to Definition 기능이 원활하게 작동될겁니다. 
 
