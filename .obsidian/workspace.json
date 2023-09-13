@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "180a3eef966020ef",
+        "id": "fd660f9b53401243",
         "type": "tabs",
         "children": [
           {
-            "id": "e5491900ba8e0c33",
+            "id": "59b51ca9eb9ec937",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nestjs/fundamentals/4. Lifecycle events.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nestjs/fundamentals/4. Lifecycle events.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nestjs/fundamentals/4. Lifecycle events.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "nestjs/fundamentals/4. Lifecycle events.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,45 +158,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e5491900ba8e0c33",
+  "active": "59b51ca9eb9ec937",
   "lastOpenFiles": [
-    "nestjs/fundamentals/3. Execution context.md",
-    "nestjs/fundamentals/4. Lifecycle events.md",
-    "README.md",
-    "linux/프로세스 명령어.md",
-    "linux/SSH.md",
-    "linux/Linux commands.md",
-    "mysql/fundamentals/인덱스.md",
-    "mysql/fundamentals/트랜잭션 Lock.md",
-    "mysql/fundamentals/트랜잭션 격리성.md",
-    "mongo/mongo.md",
-    "mysql/techniques",
-    "mysql/fundamentals",
-    "node.js/fundamentals/3. 모듈 시스템.md",
+    "데브옵스/에러 모니터링/sentry.md",
+    "nestjs/테스트",
+    "리팩터링/좋은 함수",
+    "리팩터링",
+    "데브옵스/elk",
+    "node.js/fundamentals/1. Node.js 기초.md",
+    "데브옵스/에러 모니터링",
+    "node.js/logging/1. winston.md",
+    "자바스크립트/클린 코딩/자바스크립트 주석 가이드 (JSDoc).md",
+    "node.js/logging",
+    "자바스크립트/클린 코딩/타입 스크립트 주석 가이드.md",
+    "자바스크립트/문법/단축 평가.md",
+    "자바스크립트/에러 처리/기초.md",
+    "자바스크립트/문법/클래스.md",
+    "자바스크립트/문법/반복문.md",
+    "자바스크립트/문법/Set과 Map.md",
+    "자바스크립트/문법/디스트럭처링 할당.md",
+    "자바스크립트/문법/스프레드 문법.md",
+    "자바스크립트/클린 코딩",
+    "자바스크립트/문법",
+    "자바스크립트/에러 처리",
+    "자바스크립트/비동기 프로그래밍/2. Promise.md",
+    "자바스크립트/비동기 프로그래밍/3. async와 await.md",
+    "자바스크립트/비동기 프로그래밍/1. 비동기.md",
+    "자바스크립트/비동기 프로그래밍",
+    "node.js/fundamentals/5. 멀티 프로세싱.md",
     "node.js/fundamentals/4. 멀티 쓰레드.md",
+    "node.js/fundamentals/3. 모듈 시스템.md",
     "node.js/fundamentals/2. 내장 기능.md",
-    "자바스크립트/error handling.md",
-    "타입스크립트/주석 가이드.md",
-    "타입스크립트/index.ts.md",
-    "nestjs/techniques/7. Logging.md",
-    "nestjs/techniques/6. Queues.md",
-    "nestjs/techniques/5. Scheduler.md",
-    "nestjs/techniques/4. Versioning.md",
-    "nestjs/techniques/3. Serialization.md",
-    "nestjs/techniques/2. Validation.md",
-    "nestjs/techniques/1. Config.md",
-    "nestjs/techniques/error handling.md",
-    "nestjs/fundamentals/5. Testing.md",
+    "node.js/fundamentals/무제 파일.md",
     "nestjs/fundamentals/2. Asynchronous providers.md",
-    "개발 도구/macOS 개발 도구",
-    "typeorm/error",
-    "typeorm/techniques",
-    "typeorm/fundamentals",
-    "node.js/fundamentals",
-    "컴퓨터 과학/os/무제 폴더",
+    "nestjs/fundamentals/4. Lifecycle events.md",
+    "nestjs/fundamentals/3. Execution context.md",
+    "README.md",
+    "데브옵스/linux/프로세스 명령어.md",
     "ZipFs.png",
-    "블록체인/솔라나",
-    "블록체인/트론",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
