@@ -1,3 +1,5 @@
+#개발도구 #obsidian #git
+
 `.gitignore` 파일은 다음과 같이 설정한다.
 ```.gitignore
 .obsidian/workspace
