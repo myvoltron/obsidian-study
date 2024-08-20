@@ -1,1 +1,0 @@
-https://www.reddit.com/r/ObsidianMD/comments/qb55c7/syncing_over_gitgithub_how_to_set_up_gitignore/
