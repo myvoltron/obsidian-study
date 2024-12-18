@@ -1,6 +1,7 @@
+#nodejs 
+
 > [!info] Node.js 내부적으로 구현되어 있는 기능들 중 자주 쓰일만한 기능들을 소개합니다. 
 > 
-
 # 1. `__filename`, `__dirname`
 Node.js 개발에는 현재 파일의 경로나 파일명을 알아야 할 때가 많습니다. 따라서 Node.js에서는 `__filename`, `__dirname` 이라는 키워드를 통해서 경로에 관한 정보를 제공합니다. 
 
