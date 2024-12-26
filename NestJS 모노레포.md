@@ -1,3 +1,5 @@
+#nestjs #monorepo
+
 https://dev-scratch.tistory.com/m/137
 https://jojoldu.tistory.com/594
 https://docs.nestjs.com/cli/monorepo#monorepo-mode
