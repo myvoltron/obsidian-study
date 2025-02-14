@@ -1,7 +1,7 @@
 Created at:  2025-01-13 16:10
 Tag: #web #auth 
 References:
-Link Notes: [[JWT(Access Token)]]
+Link Notes: [[Json Web Tokens(JWT) - Access Token]]
 
 # Access Token
 - 기존의 JWT 인증방식은 **Access Token**라고 불리는 토큰을 사용한다.

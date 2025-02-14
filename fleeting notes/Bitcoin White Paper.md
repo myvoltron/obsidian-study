@@ -1,6 +1,7 @@
 Created at:  2025-01-14 23:44
 Tag: #blockchain #bitcoin
 References:
+- https://bitcoin.org/bitcoin.pdf
 Link Notes:
 
 # 서론
@@ -17,7 +18,7 @@ Link Notes:
 신뢰받는 제 3자 없이 이 방식을 실현하려면, 거래를 모두 공개적으로 알려져야하고 참여자들에게는 단 하나의 거래 순서 기록에 합의하는 시스템이 필요합니다. 수취인은 각 거래의 시점에 해당 거래가 최초로 받은 거래임을 노드 다수가 동의했다는 증명을 필요로 합니다.
 
 # 타임스탬프 서버
-![timestamp](https://i.namu.wiki/i/9350mGR4bvRYmyIJmzaYb0PGPLJXk62NRc_3Qj-wG8K8QGo775GMr61Hy2HSoW1kbrJ_yasygjpuS61BX9stjs51MUrx13v3jJ2omjmcUULifr3vY0wJ6V6olNRV5Yjgu-qWQtdaCjvmTck8LMCHQg.webp)
+![bitcoin timestamp server](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmkqJ1ssJ_lnR9ToMpov9YAnSJefVhacI8rw&s)
 우선 비트코인은 각 트랜잭션 정보들을 담은 블록을 만듭니다. 이러한 블록들에는 고유한 해시가 있는데 현재 블록 해시는 이전 블록의 해시값을 포함합니다. 해시는 어떠한 입력값을 넣으면 고유한 랜덤한 값이 나오는 함수라고 생각하면 됩니다. 밑에서 나오는 작업증명 시스템과 함께하면 긴 블록 체인은 정말 변조하기가 힘들어집니다.
 
 # 작업증명(Proof-of-Work)

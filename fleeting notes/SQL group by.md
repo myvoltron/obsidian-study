@@ -3,7 +3,7 @@ Tag: #mysql #sql #database #syntax
 References:
 - https://extbrain.tistory.com/56
 - [GROUP BY (上) : 개념과 실제 사용 방법](https://kimsyoung.tistory.com/entry/SQL-GROUP-BY-%E4%B8%8A-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%8B%A4%EC%A0%9C-%EC%A0%81%EC%9A%A9-%EB%B0%A9%EB%B2%95)
-Link Notes:
+Link Notes: [[SQL Join]]
 
 ### GROUP BY 개요
 MySQL에서 유형별로 개수를 가져오고 싶을 때 컬럼 데이터를 그룹화 할 수 있는 `GROUP BY`를 사용합니다.

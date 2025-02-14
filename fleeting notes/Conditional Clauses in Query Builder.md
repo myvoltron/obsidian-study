@@ -5,10 +5,9 @@ References:
 - [Database: Query Builder - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/5.8/queries#conditional-clauses)
 Link Notes: 
 
-typeorm을 쓸 때 종종 특정 조건이 만족했을 때만 특정한 조건이나 쿼리를 삽입하고 싶을 때가 있습니다. 
+typeorm을 쓸 때 종종 특정 조건이 만족했을 때만 특정한 조건이나 쿼리를 삽입하고 싶을 때가 종종 있다. 
 
-관련해서 스택오버플로우에서 찾아보니 유용한 방식이 많이 있었습니다. 그 중 가장 합리적으로 보였던 방식은 다음과 같습니다.
-
+그럴 땐, 다음과 같이 조건문을 사용해서 조건적으로 쿼리를 넣을 수 있다.
 ```typescript
 let query = somehow
   .createQueryBuilder('users')
@@ -22,4 +21,4 @@ if(params.q != '') {
 const users = query.getMany();
 ```
 
-메서드를 쓸 때 `QueryBuilder` 객체가 반환되는 점을 활용합니다. 
+`QueryBuilder`의 메서드를 쓸 때 `QueryBuilder` 객체가 반환되는 점을 활용한 것:) 

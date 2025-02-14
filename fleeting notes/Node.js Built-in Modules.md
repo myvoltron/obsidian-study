@@ -1,7 +1,7 @@
 Created at:  2025-01-15 00:21
 Tag: #nodejs 
 References:
-Link Notes:
+Link Notes: [[Node.js Basic]]
 
 > [!info] Node.js 내부적으로 구현되어 있는 기능들 중 자주 쓰일만한 기능들을 소개합니다. 
 > 

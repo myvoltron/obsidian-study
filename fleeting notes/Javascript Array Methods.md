@@ -1,7 +1,7 @@
 Created at:  2025-01-13 15:36
 Tag: #javascript #syntax
 References:
-Link Notes: [[Javascript Operator]]
+Link Notes:
 
 ### `includes`
 - 배열 내에 특정 요소가 포함되어 있는지 확인해 `true` 또는 `false`를 반환합니다.

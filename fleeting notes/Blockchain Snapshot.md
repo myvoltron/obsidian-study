@@ -2,10 +2,9 @@ Created at:  2025-01-13 17:08
 Tag: #blockchain 
 References:
 - [http://wiki.hash.kr/index.php/스냅샷](http://wiki.hash.kr/index.php/%EC%8A%A4%EB%83%85%EC%83%B7)
-Link Notes:
+Link Notes: [[Blockchain Airdrop]]
 
 ### 스냅샷
-
 스냅샷이란 특정한 시점에서 각 사용자들이 보유하고 있는 암호화폐의 수량을 ‘마치 사진을 찍듯이’ 별도로 저장해 두는 행위를 말합니다.
 
 데이터베이스에서 끊임없이 새로운 데이터가 입력되고 기존 데이터가 수정, 삭제되는데 이 때 특정한 시점에서 데이터베이스의 정확한 상태를 별도로 복사하여 저장하는 것을 스냅샷이라고 한다. 블록체인 데이터의 경우에 특정한 블록을 기준으로 데이터를 복사해 저장하는 행위를 스냅샷이라고 합니다.
