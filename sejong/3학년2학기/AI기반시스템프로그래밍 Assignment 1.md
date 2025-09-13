@@ -19,6 +19,9 @@ username은 제 학번으로 하였습니다.
 
 ![[Ubuntu 64-bit-2025-09-12-23-34-34.png]]
 재부팅 이후 **s20011705** 계정으로 로그인을 합니다.
+
+![[Ubuntu 64-bit-2025-09-13-15-03-25.png]]
+`lsb_release -a` 명령어를 실행하여 설치된 Ubuntu 버전을 확인 합니다. Ubuntu 24.04 LTS 버전으로 잘 설치된 것을 확인할 수 있습니다.
 # 2. Ubuntu 기본적인 tool 설치
 ```shell
 sudo apt update && sudo apt upgrade
