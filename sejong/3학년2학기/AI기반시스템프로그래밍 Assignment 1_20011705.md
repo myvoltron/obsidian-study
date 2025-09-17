@@ -1,3 +1,5 @@
+> [!NOTE]
+> 본 레포트 작성에선 AI를 사용하지 않았습니다. 
 # 1. VMware에 Ubuntu server 설치
 ## 1.1 Ubuntu server 초기 설치
 대부분 교안에 나와 있는 설정법을 따라갔으므로 일부분은 생략했습니다.
@@ -21,7 +23,6 @@ username은 제 학번으로 하였습니다.
 
 ![[Ubuntu 64-bit-2025-09-13-15-03-25.png]]
 `lsb_release -a` 명령어를 실행하여 설치된 Ubuntu 버전을 확인 합니다. Ubuntu 24.04 LTS 버전으로 잘 설치된 것을 확인할 수 있습니다.
-# 2. Ubuntu 기본적인 tool 설치
 ## 1.2 Ubuntu 기본적인 tool 설치
 ```shell
 sudo apt update && sudo apt upgrade
