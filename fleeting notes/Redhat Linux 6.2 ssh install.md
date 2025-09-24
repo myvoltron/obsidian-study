@@ -5,5 +5,6 @@ References:
 - https://packetstorm.news/files/id/23994/
 - https://stackoverflow.com/questions/6804208/nano-error-error-opening-terminal-xterm-256color
 - https://eveningdev.tistory.com/184
+- https://blog.naver.com/hymne/221161036452
 Link Notes:
 
