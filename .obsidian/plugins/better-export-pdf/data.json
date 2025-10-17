@@ -11,5 +11,20 @@
   "debug": false,
   "isTimestamp": false,
   "enabledCss": true,
-  "concurrency": "5"
+  "concurrency": "5",
+  "prevConfig": {
+    "pageSize": "A4",
+    "marginType": "1",
+    "showTitle": true,
+    "open": true,
+    "scale": 100,
+    "landscape": false,
+    "marginTop": "10",
+    "marginBottom": "10",
+    "marginLeft": "10",
+    "marginRight": "10",
+    "displayHeader": true,
+    "displayFooter": true,
+    "cssSnippet": "0"
+  }
 }
