@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .bg { fill: #fffafa; }
+      .title { font: 800 48px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #2b1820; }
+      .subtitle { font: 700 25px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #5a2630; }
+      .label { font: 700 23px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #2b1820; }
+      .body { font: 500 20px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #3d3036; }
+      .small { font: 500 18px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #6a4a54; }
+      .box { fill: #ffffff; stroke: #d94848; stroke-width: 3; rx: 18; }
+      .soft { fill: #fff1f1; stroke: #f08585; stroke-width: 2; rx: 14; }
+      .fat { fill: #fff7e8; stroke: #e09a2f; stroke-width: 2; rx: 14; }
+      .data { fill: #f4f4f4; stroke: #9a9a9a; stroke-width: 2; rx: 14; }
+      .summary { fill: #2b1820; rx: 20; }
+      .summaryText { font: 700 24px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #ffffff; }
+      .step { fill: #d94848; }
+      .stepText { font: 800 23px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #ffffff; }
+      .arrow { stroke: #d94848; stroke-width: 5; fill: none; marker-end: url(#arrowHead); }
+      .before { fill: #eefaf3; stroke: #39a96b; stroke-width: 2; rx: 10; }
+      .after { fill: #fff1f1; stroke: #d94848; stroke-width: 2; rx: 10; }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d94848"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="1000"/>
+  <text class="title" x="80" y="80">FAT 파일 삭제 동작</text>
+  <text class="subtitle" x="82" y="122">예시: file1.dat 삭제, 사용 클러스터 190번과 191번</text>
+
+  <g transform="translate(80 175)">
+    <rect class="box" x="0" y="0" width="270" height="150"/>
+    <circle class="step" cx="34" cy="34" r="22"/>
+    <text class="stepText" x="27" y="42">1</text>
+    <text class="label" x="70" y="42">삭제 요청</text>
+    <text class="body" x="35" y="92">file1.dat 삭제</text>
+  </g>
+
+  <path class="arrow" d="M 365 250 L 460 250"/>
+
+  <g transform="translate(475 175)">
+    <rect class="box" x="0" y="0" width="465" height="220"/>
+    <circle class="step" cx="34" cy="34" r="22"/>
+    <text class="stepText" x="27" y="42">2</text>
+    <text class="label" x="70" y="42">Directory Entry 수정</text>
+    <rect class="before" x="36" y="82" width="180" height="52"/>
+    <text class="body" x="68" y="115">file1.dat</text>
+    <text class="body" x="232" y="115">이전</text>
+    <path class="arrow" d="M 285 108 L 335 108"/>
+    <rect class="after" x="350" y="82" width="80" height="52"/>
+    <text class="body" x="366" y="115">0xE5</text>
+    <text class="small" x="36" y="172">파일명 첫 글자만 0xE5로 변경</text>
+  </g>
+
+  <path class="arrow" d="M 955 285 L 1050 285"/>
+
+  <g transform="translate(1065 175)">
+    <rect class="fat" x="0" y="0" width="455" height="220"/>
+    <circle class="step" cx="34" cy="34" r="22"/>
+    <text class="stepText" x="27" y="42">3</text>
+    <text class="label" x="70" y="42">FAT Entry 초기화</text>
+    <text class="body" x="35" y="88">이전: FAT[190]=191, FAT[191]=EOF</text>
+    <text class="body" x="35" y="130">이후: FAT[190]=0x00000000</text>
+    <text class="body" x="86" y="164">FAT[191]=0x00000000</text>
+    <text class="small" x="35" y="198">클러스터 연결 정보가 사라진다.</text>
+  </g>
+
+  <g transform="translate(120 470)">
+    <rect class="data" x="0" y="0" width="650" height="230"/>
+    <circle class="step" cx="34" cy="38" r="22"/>
+    <text class="stepText" x="27" y="46">4</text>
+    <text class="label" x="70" y="47">Data Area는 그대로</text>
+    <rect x="70" y="88" width="235" height="60" rx="10" fill="#dedede" stroke="#8a8a8a" stroke-width="2"/>
+    <text class="body" x="98" y="125">Cluster 190 데이터</text>
+    <rect x="345" y="88" width="235" height="60" rx="10" fill="#dedede" stroke="#8a8a8a" stroke-width="2"/>
+    <text class="body" x="373" y="125">Cluster 191 데이터</text>
+    <text class="body" x="70" y="185">실제 데이터는 즉시 삭제되지 않는다.</text>
+  </g>
+
+  <path class="arrow" d="M 785 585 L 880 585"/>
+
+  <g transform="translate(900 470)">
+    <rect class="box" x="0" y="0" width="580" height="230"/>
+    <circle class="step" cx="34" cy="38" r="22"/>
+    <text class="stepText" x="27" y="46">5</text>
+    <text class="label" x="70" y="47">복구 가능성 판단</text>
+    <rect class="before" x="50" y="82" width="470" height="36"/>
+    <text class="body" x="68" y="107">메타데이터 남음 → 복구 쉬움</text>
+    <rect class="before" x="50" y="128" width="470" height="36"/>
+    <text class="body" x="68" y="153">연속 클러스터 → 복구 쉬움</text>
+    <rect class="after" x="50" y="174" width="470" height="36"/>
+    <text class="body" x="68" y="199">덮어쓰기 발생 → 복구 불가 가능</text>
+  </g>
+
+  <rect class="summary" x="80" y="820" width="1440" height="105"/>
+  <text class="summaryText" x="120" y="862">핵심: FAT 삭제는 데이터 삭제가 아니라 인덱스 정보 변경이다.</text>
+  <text class="summaryText" x="120" y="902">Directory Entry의 0xE5와 FAT Entry의 0x00이 주요 단서다.</text>
+</svg>

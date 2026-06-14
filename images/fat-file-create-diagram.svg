@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .bg { fill: #f8fbff; }
+      .title { font: 800 48px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #102033; }
+      .subtitle { font: 700 25px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #1f3a5a; }
+      .label { font: 700 23px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #14263a; }
+      .body { font: 500 20px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #25364a; }
+      .small { font: 500 18px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #36506c; }
+      .box { fill: #ffffff; stroke: #2f73d8; stroke-width: 3; rx: 18; }
+      .soft { fill: #eaf4ff; stroke: #78aeea; stroke-width: 2; rx: 14; }
+      .fat { fill: #eefaf3; stroke: #39a96b; stroke-width: 2; rx: 14; }
+      .data { fill: #fff9e9; stroke: #e3ad2b; stroke-width: 2; rx: 14; }
+      .summary { fill: #102033; rx: 20; }
+      .summaryText { font: 700 24px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #ffffff; }
+      .step { fill: #2f73d8; }
+      .stepText { font: 800 23px "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #ffffff; }
+      .arrow { stroke: #2f73d8; stroke-width: 5; fill: none; marker-end: url(#arrowHead); }
+    </style>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f73d8"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="1000"/>
+  <text class="title" x="80" y="80">FAT 파일 생성 동작</text>
+  <text class="subtitle" x="82" y="122">예시: file1.dat, 파일 크기 6000B, 클러스터 크기 4096B</text>
+
+  <g transform="translate(80 175)">
+    <rect class="box" x="0" y="0" width="310" height="155"/>
+    <circle class="step" cx="34" cy="34" r="22"/>
+    <text class="stepText" x="27" y="42">1</text>
+    <text class="label" x="70" y="42">Directory Entry 탐색</text>
+    <text class="body" x="28" y="86">삭제 엔트리: 0xE5</text>
+    <text class="body" x="28" y="118">새 엔트리 시작: 0x00</text>
+  </g>
+
+  <path class="arrow" d="M 405 252 L 500 252"/>
+
+  <g transform="translate(515 175)">
+    <rect class="box" x="0" y="0" width="310" height="155"/>
+    <circle class="step" cx="34" cy="34" r="22"/>
+    <text class="stepText" x="27" y="42">2</text>
+    <text class="label" x="70" y="42">빈 FAT Entry 검색</text>
+    <text class="body" x="28" y="90">0x00000000</text>
+    <text class="small" x="28" y="120">비어 있는 클러스터 의미</text>
+  </g>
+
+  <path class="arrow" d="M 840 252 L 935 252"/>
+
+  <g transform="translate(950 175)">
+    <rect class="box" x="0" y="0" width="570" height="155"/>
+    <circle class="step" cx="34" cy="34" r="22"/>
+    <text class="stepText" x="27" y="42">3</text>
+    <text class="label" x="70" y="42">클러스터 할당</text>
+    <text class="body" x="30" y="88">6000B 파일은 4096B 클러스터 2개 필요</text>
+    <text class="body" x="30" y="122">190번 클러스터 + 191번 클러스터 할당</text>
+  </g>
+
+  <g transform="translate(130 410)">
+    <rect class="fat" x="0" y="0" width="590" height="220"/>
+    <circle class="step" cx="34" cy="38" r="22"/>
+    <text class="stepText" x="27" y="46">4</text>
+    <text class="label" x="70" y="47">FAT 체인 기록</text>
+    <rect class="soft" x="40" y="82" width="510" height="95"/>
+    <text class="body" x="70" y="122">FAT[190] = 191</text>
+    <text class="body" x="70" y="156">FAT[191] = EOF(0x0FFFFFFF)</text>
+    <text class="small" x="40" y="202">FAT는 각 클러스터의 다음 위치를 저장한다.</text>
+  </g>
+
+  <path class="arrow" d="M 745 520 L 845 520"/>
+
+  <g transform="translate(870 410)">
+    <rect class="soft" x="0" y="0" width="600" height="220"/>
+    <circle class="step" cx="34" cy="38" r="22"/>
+    <text class="stepText" x="27" y="46">5</text>
+    <text class="label" x="70" y="47">Directory Entry 기록</text>
+    <text class="body" x="40" y="88">파일명: file1.dat</text>
+    <text class="body" x="40" y="120">속성, 생성/수정 시간 기록</text>
+    <text class="body" x="40" y="152">시작 클러스터 = 190</text>
+    <text class="body" x="40" y="184">파일 크기 = 6000B</text>
+  </g>
+
+  <g transform="translate(130 695)">
+    <rect class="data" x="0" y="0" width="1340" height="155"/>
+    <circle class="step" cx="34" cy="38" r="22"/>
+    <text class="stepText" x="27" y="46">6</text>
+    <text class="label" x="70" y="47">Data Area 저장</text>
+    <rect x="75" y="80" width="335" height="50" rx="10" fill="#ffe8a6" stroke="#e3ad2b" stroke-width="2"/>
+    <text class="body" x="105" y="112">Cluster 190: 4096B 저장</text>
+    <rect x="450" y="80" width="335" height="50" rx="10" fill="#ffe8a6" stroke="#e3ad2b" stroke-width="2"/>
+    <text class="body" x="480" y="112">Cluster 191: 1904B 저장</text>
+    <rect x="825" y="80" width="250" height="50" rx="10" fill="#fff3cf" stroke="#d89a1c" stroke-dasharray="8 6" stroke-width="2"/>
+    <text class="body" x="870" y="112">Slack 발생</text>
+    <path class="arrow" d="M 410 105 L 445 105"/>
+    <path class="arrow" d="M 785 105 L 820 105"/>
+  </g>
+
+  <rect class="summary" x="80" y="900" width="1440" height="68"/>
+  <text class="summaryText" x="120" y="943">핵심: Directory Entry는 시작 클러스터를 저장하고, FAT는 다음 클러스터 번호를 연결한다.</text>
+</svg>
