@@ -1,10 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "table_wrap",
     "MCL Multi Column",
     "MCL Wide Views"
-  ]
+  ],
+  "monospaceFontFamily": "IoskeleyMonoNL Nerd Font",
+  "textFontFamily": "IoskeleyMonoNL Nerd Font",
+  "translucency": true
 }
