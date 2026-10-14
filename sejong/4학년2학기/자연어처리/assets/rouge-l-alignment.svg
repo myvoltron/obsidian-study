@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="510" viewBox="0 0 1100 510" role="img" aria-label="ROUGE-L longest common subsequence comparison">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#2563eb"/></marker></defs>
+<rect width="1100" height="510" rx="16" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" fill="#0f172a">
+<text x="30" y="40" font-size="24">ROUGE-L: order matters, adjacency is optional</text>
+<text x="30" y="72" font-size="16" fill="#475569">Reference: police killed the gunman | Blue tokens form one longest common subsequence</text>
+<line x1="550" y1="110" x2="550" y2="475" stroke="#cbd5e1"/>
+<text x="35" y="133" font-size="18">S2: police kill the gunman</text>
+<text x="580" y="133" font-size="18">S3: the gunman kill police</text>
+<g stroke="#94a3b8">
+<rect x="35" y="170" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="150" y="170" width="100" height="50" rx="8" fill="#e2e8f0"/><rect x="265" y="170" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="380" y="170" width="100" height="50" rx="8" fill="#dbeafe"/>
+<rect x="35" y="285" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="150" y="285" width="100" height="50" rx="8" fill="#e2e8f0"/><rect x="265" y="285" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="380" y="285" width="100" height="50" rx="8" fill="#dbeafe"/>
+<rect x="580" y="170" width="100" height="50" rx="8" fill="#e2e8f0"/><rect x="695" y="170" width="100" height="50" rx="8" fill="#e2e8f0"/><rect x="810" y="170" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="925" y="170" width="100" height="50" rx="8" fill="#dbeafe"/>
+<rect x="580" y="285" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="695" y="285" width="100" height="50" rx="8" fill="#dbeafe"/><rect x="810" y="285" width="100" height="50" rx="8" fill="#e2e8f0"/><rect x="925" y="285" width="100" height="50" rx="8" fill="#e2e8f0"/>
+</g>
+<g font-size="16" text-anchor="middle">
+<text x="85" y="202">police</text><text x="200" y="202">killed</text><text x="315" y="202">the</text><text x="430" y="202">gunman</text>
+<text x="85" y="317">police</text><text x="200" y="317">kill</text><text x="315" y="317">the</text><text x="430" y="317">gunman</text>
+<text x="630" y="202">police</text><text x="745" y="202">killed</text><text x="860" y="202">the</text><text x="975" y="202">gunman</text>
+<text x="630" y="317">the</text><text x="745" y="317">gunman</text><text x="860" y="317">kill</text><text x="975" y="317">police</text>
+</g>
+<g stroke="#2563eb" stroke-width="2.2" marker-end="url(#arrow)">
+<line x1="85" y1="220" x2="85" y2="282"/><line x1="315" y1="220" x2="315" y2="282"/><line x1="430" y1="220" x2="430" y2="282"/>
+<line x1="860" y1="220" x2="630" y2="282"/><line x1="975" y1="220" x2="745" y2="282"/>
+</g>
+<text x="35" y="390" font-size="18">LCS: police → the → gunman</text><text x="580" y="390" font-size="18">LCS: the → gunman</text>
+<text x="35" y="426" font-size="20" fill="#1d4ed8">Length 3; R = P = F1 = 3/4 = 0.75</text><text x="580" y="426" font-size="20" fill="#1d4ed8">Length 2; R = P = F1 = 2/4 = 0.50</text>
+<text x="35" y="478" font-size="16" fill="#475569">Based on Week06(1), p.12. Tokens must match exactly in this example: kill is not killed.</text>
+</g></svg>

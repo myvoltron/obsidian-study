@@ -1,0 +1,1070 @@
+{
+  "sources": [
+    {
+      "code": "W02",
+      "filename": "NLP Week02 - Word Embeddings (260909 update).pdf",
+      "pages": 51,
+      "sha256": "f1c3c940127783dfcfa5beed72e2f97c0f6fa9049b7b6fb91a85cfa90cbb7232"
+    },
+    {
+      "code": "W03",
+      "filename": "NLP Week03 - Deep Learning Recap.pdf",
+      "pages": 39,
+      "sha256": "373c41b7b76f1b18043bf5dc0be70ab72afad01eaab572c91c38b700bfa2b7ba"
+    },
+    {
+      "code": "W04a",
+      "filename": "NLP Week04(1) - Text Classification.pdf",
+      "pages": 23,
+      "sha256": "7f95e7cfd6c63dfd5ea808c365c756b94669acf74d6dd4a5fa7f6602bff51e65"
+    },
+    {
+      "code": "W04b",
+      "filename": "NLP Week04(2) - Text Classification with CNN.pdf",
+      "pages": 32,
+      "sha256": "10e526fbfcf770180ea7b40a8142e26a1d88a47aeae3a543187428a04f587dc5"
+    },
+    {
+      "code": "W05b",
+      "filename": "NLP Week05(2) - Machine Translation.pdf",
+      "pages": 23,
+      "sha256": "499f397c8009e1af19ac9048a08bfd7a9a86595c7b9596f8f3965ccfcd8c50f4"
+    },
+    {
+      "code": "W05a",
+      "filename": "NLP_Week05(1) - Machine Translation.pdf",
+      "pages": 21,
+      "sha256": "b24938a79c7905cb5a5cea2a8cdf88617fb5e70349a80c057f364809d55ef317"
+    }
+  ],
+  "coverage": [
+    {
+      "source": "W02",
+      "page": 1,
+      "note": "00 목차/학습 목표"
+    },
+    {
+      "source": "W02",
+      "page": 2,
+      "note": "00 목차/학습 목표"
+    },
+    {
+      "source": "W02",
+      "page": 3,
+      "note": "00 목차/학습 목표"
+    },
+    {
+      "source": "W02",
+      "page": 4,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 5,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 6,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 7,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 8,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 9,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 10,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 11,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 12,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 13,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 14,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 15,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 16,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 17,
+      "note": "01 단어 표현"
+    },
+    {
+      "source": "W02",
+      "page": 18,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 19,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 20,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 21,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 22,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 23,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 24,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 25,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 26,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 27,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 28,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 29,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 30,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 31,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 32,
+      "note": "02 Word2Vec/사전학습"
+    },
+    {
+      "source": "W02",
+      "page": 33,
+      "note": "02 평가/UNK"
+    },
+    {
+      "source": "W02",
+      "page": 34,
+      "note": "02 평가/UNK"
+    },
+    {
+      "source": "W02",
+      "page": 35,
+      "note": "02 평가/UNK"
+    },
+    {
+      "source": "W02",
+      "page": 36,
+      "note": "02 평가/UNK"
+    },
+    {
+      "source": "W02",
+      "page": 37,
+      "note": "02 평가/UNK"
+    },
+    {
+      "source": "W02",
+      "page": 38,
+      "note": "02 평가/UNK"
+    },
+    {
+      "source": "W02",
+      "page": 39,
+      "note": "02 FastText"
+    },
+    {
+      "source": "W02",
+      "page": 40,
+      "note": "02 FastText"
+    },
+    {
+      "source": "W02",
+      "page": 41,
+      "note": "02 FastText"
+    },
+    {
+      "source": "W02",
+      "page": 42,
+      "note": "02 Composition/Attention"
+    },
+    {
+      "source": "W02",
+      "page": 43,
+      "note": "02 Composition/Attention"
+    },
+    {
+      "source": "W02",
+      "page": 44,
+      "note": "02 Composition/Attention"
+    },
+    {
+      "source": "W02",
+      "page": 45,
+      "note": "02 Composition/Attention"
+    },
+    {
+      "source": "W02",
+      "page": 46,
+      "note": "02 Composition/Attention"
+    },
+    {
+      "source": "W02",
+      "page": 47,
+      "note": "02 문맥화/요약"
+    },
+    {
+      "source": "W02",
+      "page": 48,
+      "note": "02 문맥화/요약"
+    },
+    {
+      "source": "W02",
+      "page": 49,
+      "note": "02 문맥화/요약"
+    },
+    {
+      "source": "W02",
+      "page": 50,
+      "note": "02 문맥화/요약"
+    },
+    {
+      "source": "W02",
+      "page": 51,
+      "note": "02 문맥화/요약"
+    },
+    {
+      "source": "W03",
+      "page": 1,
+      "note": "00 목차/03 목표"
+    },
+    {
+      "source": "W03",
+      "page": 2,
+      "note": "00 목차/03 목표"
+    },
+    {
+      "source": "W03",
+      "page": 3,
+      "note": "00 목차/03 목표"
+    },
+    {
+      "source": "W03",
+      "page": 4,
+      "note": "03 순전파/손실"
+    },
+    {
+      "source": "W03",
+      "page": 5,
+      "note": "03 순전파/손실"
+    },
+    {
+      "source": "W03",
+      "page": 6,
+      "note": "03 순전파/손실"
+    },
+    {
+      "source": "W03",
+      "page": 7,
+      "note": "03 순전파/손실"
+    },
+    {
+      "source": "W03",
+      "page": 8,
+      "note": "03 순전파/손실"
+    },
+    {
+      "source": "W03",
+      "page": 9,
+      "note": "03 순전파/손실"
+    },
+    {
+      "source": "W03",
+      "page": 10,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 11,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 12,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 13,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 14,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 15,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 16,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 17,
+      "note": "03 Gradient/역전파"
+    },
+    {
+      "source": "W03",
+      "page": 18,
+      "note": "03 학습 실행 단위"
+    },
+    {
+      "source": "W03",
+      "page": 19,
+      "note": "03 학습 실행 단위"
+    },
+    {
+      "source": "W03",
+      "page": 20,
+      "note": "03 학습 실행 단위"
+    },
+    {
+      "source": "W03",
+      "page": 21,
+      "note": "03 Optimizer"
+    },
+    {
+      "source": "W03",
+      "page": 22,
+      "note": "03 Optimizer"
+    },
+    {
+      "source": "W03",
+      "page": 23,
+      "note": "03 Optimizer"
+    },
+    {
+      "source": "W03",
+      "page": 24,
+      "note": "03 Optimizer"
+    },
+    {
+      "source": "W03",
+      "page": 25,
+      "note": "03 Optimizer"
+    },
+    {
+      "source": "W03",
+      "page": 26,
+      "note": "03 Optimizer"
+    },
+    {
+      "source": "W03",
+      "page": 27,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 28,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 29,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 30,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 31,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 32,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 33,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 34,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 35,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 36,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 37,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 38,
+      "note": "03 일반화"
+    },
+    {
+      "source": "W03",
+      "page": 39,
+      "note": "03 요약/11"
+    },
+    {
+      "source": "W04a",
+      "page": 1,
+      "note": "00 목차/04 목표/05 목표"
+    },
+    {
+      "source": "W04a",
+      "page": 2,
+      "note": "00 목차/04 목표/05 목표"
+    },
+    {
+      "source": "W04a",
+      "page": 3,
+      "note": "00 목차/04 목표/05 목표"
+    },
+    {
+      "source": "W04a",
+      "page": 4,
+      "note": "04 문제/응용"
+    },
+    {
+      "source": "W04a",
+      "page": 5,
+      "note": "04 문제/응용"
+    },
+    {
+      "source": "W04a",
+      "page": 6,
+      "note": "04 문제/응용"
+    },
+    {
+      "source": "W04a",
+      "page": 7,
+      "note": "04 라벨/출력/손실"
+    },
+    {
+      "source": "W04a",
+      "page": 8,
+      "note": "04 라벨/출력/손실"
+    },
+    {
+      "source": "W04a",
+      "page": 9,
+      "note": "04 라벨/출력/손실"
+    },
+    {
+      "source": "W04a",
+      "page": 10,
+      "note": "04 라벨/출력/손실"
+    },
+    {
+      "source": "W04a",
+      "page": 11,
+      "note": "04 라벨/출력/손실"
+    },
+    {
+      "source": "W04a",
+      "page": 12,
+      "note": "04 라벨/출력/손실"
+    },
+    {
+      "source": "W04a",
+      "page": 13,
+      "note": "04 이진 평가/불균형"
+    },
+    {
+      "source": "W04a",
+      "page": 14,
+      "note": "04 이진 평가/불균형"
+    },
+    {
+      "source": "W04a",
+      "page": 15,
+      "note": "04 이진 평가/불균형"
+    },
+    {
+      "source": "W04a",
+      "page": 16,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 17,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 18,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 19,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 20,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 21,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 22,
+      "note": "04 행렬/지표/averaging"
+    },
+    {
+      "source": "W04a",
+      "page": 23,
+      "note": "04 Multi-label 평가"
+    },
+    {
+      "source": "W04b",
+      "page": 1,
+      "note": "00 목차"
+    },
+    {
+      "source": "W04b",
+      "page": 2,
+      "note": "00 목차"
+    },
+    {
+      "source": "W04b",
+      "page": 3,
+      "note": "05 CNN 아이디어"
+    },
+    {
+      "source": "W04b",
+      "page": 4,
+      "note": "05 CNN 아이디어"
+    },
+    {
+      "source": "W04b",
+      "page": 5,
+      "note": "05 CNN 아이디어"
+    },
+    {
+      "source": "W04b",
+      "page": 6,
+      "note": "05 CNN 아이디어"
+    },
+    {
+      "source": "W04b",
+      "page": 7,
+      "note": "05 Convolution/크기/채널"
+    },
+    {
+      "source": "W04b",
+      "page": 8,
+      "note": "05 Convolution/크기/채널"
+    },
+    {
+      "source": "W04b",
+      "page": 9,
+      "note": "05 Convolution/크기/채널"
+    },
+    {
+      "source": "W04b",
+      "page": 10,
+      "note": "05 Convolution/크기/채널"
+    },
+    {
+      "source": "W04b",
+      "page": 11,
+      "note": "05 Convolution/크기/채널"
+    },
+    {
+      "source": "W04b",
+      "page": 12,
+      "note": "05 Convolution/크기/채널"
+    },
+    {
+      "source": "W04b",
+      "page": 13,
+      "note": "05 Pooling/FC"
+    },
+    {
+      "source": "W04b",
+      "page": 14,
+      "note": "05 Pooling/FC"
+    },
+    {
+      "source": "W04b",
+      "page": 15,
+      "note": "05 Pooling/FC"
+    },
+    {
+      "source": "W04b",
+      "page": 16,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 17,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 18,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 19,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 20,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 21,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 22,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 23,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 24,
+      "note": "05 Kim 구조/계산"
+    },
+    {
+      "source": "W04b",
+      "page": 25,
+      "note": "05 변형"
+    },
+    {
+      "source": "W04b",
+      "page": 26,
+      "note": "05 변형"
+    },
+    {
+      "source": "W04b",
+      "page": 27,
+      "note": "05 변형"
+    },
+    {
+      "source": "W04b",
+      "page": 28,
+      "note": "05 Dataset/설정/실험"
+    },
+    {
+      "source": "W04b",
+      "page": 29,
+      "note": "05 Dataset/설정/실험"
+    },
+    {
+      "source": "W04b",
+      "page": 30,
+      "note": "05 Dataset/설정/실험"
+    },
+    {
+      "source": "W04b",
+      "page": 31,
+      "note": "04–05/11 요약"
+    },
+    {
+      "source": "W04b",
+      "page": 32,
+      "note": "04–05/11 요약"
+    },
+    {
+      "source": "W05b",
+      "page": 1,
+      "note": "00 목차"
+    },
+    {
+      "source": "W05b",
+      "page": 2,
+      "note": "00 목차"
+    },
+    {
+      "source": "W05b",
+      "page": 3,
+      "note": "08 병목/Attention"
+    },
+    {
+      "source": "W05b",
+      "page": 4,
+      "note": "08 병목/Attention"
+    },
+    {
+      "source": "W05b",
+      "page": 5,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 6,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 7,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 8,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 9,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 10,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 11,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 12,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 13,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 14,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 15,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 16,
+      "note": "08 단계별 Attention/수식"
+    },
+    {
+      "source": "W05b",
+      "page": 17,
+      "note": "08 BLEU/Clipping/BP"
+    },
+    {
+      "source": "W05b",
+      "page": 18,
+      "note": "08 BLEU/Clipping/BP"
+    },
+    {
+      "source": "W05b",
+      "page": 19,
+      "note": "08 BLEU/Clipping/BP"
+    },
+    {
+      "source": "W05b",
+      "page": 20,
+      "note": "08 BLEU 예제"
+    },
+    {
+      "source": "W05b",
+      "page": 21,
+      "note": "08 BLEU 예제"
+    },
+    {
+      "source": "W05b",
+      "page": 22,
+      "note": "08 BLEU 예제"
+    },
+    {
+      "source": "W05b",
+      "page": 23,
+      "note": "06–08/11 요약"
+    },
+    {
+      "source": "W05a",
+      "page": 1,
+      "note": "00 목차/06–08 목표"
+    },
+    {
+      "source": "W05a",
+      "page": 2,
+      "note": "00 목차/06–08 목표"
+    },
+    {
+      "source": "W05a",
+      "page": 3,
+      "note": "00 목차/06–08 목표"
+    },
+    {
+      "source": "W05a",
+      "page": 4,
+      "note": "06 RNN/확장"
+    },
+    {
+      "source": "W05a",
+      "page": 5,
+      "note": "06 RNN/확장"
+    },
+    {
+      "source": "W05a",
+      "page": 6,
+      "note": "06 RNN/확장"
+    },
+    {
+      "source": "W05a",
+      "page": 7,
+      "note": "06 RNN/확장"
+    },
+    {
+      "source": "W05a",
+      "page": 8,
+      "note": "06 RNN/확장"
+    },
+    {
+      "source": "W05a",
+      "page": 9,
+      "note": "06 RNN/확장"
+    },
+    {
+      "source": "W05a",
+      "page": 10,
+      "note": "06 장기 의존성/LSTM"
+    },
+    {
+      "source": "W05a",
+      "page": 11,
+      "note": "06 장기 의존성/LSTM"
+    },
+    {
+      "source": "W05a",
+      "page": 12,
+      "note": "06 장기 의존성/LSTM"
+    },
+    {
+      "source": "W05a",
+      "page": 13,
+      "note": "06 장기 의존성/LSTM"
+    },
+    {
+      "source": "W05a",
+      "page": 14,
+      "note": "06 장기 의존성/LSTM"
+    },
+    {
+      "source": "W05a",
+      "page": 15,
+      "note": "06 장기 의존성/LSTM"
+    },
+    {
+      "source": "W05a",
+      "page": 16,
+      "note": "07 NMT/학습"
+    },
+    {
+      "source": "W05a",
+      "page": 17,
+      "note": "07 NMT/학습"
+    },
+    {
+      "source": "W05a",
+      "page": 18,
+      "note": "07 Decoding"
+    },
+    {
+      "source": "W05a",
+      "page": 19,
+      "note": "07 Decoding"
+    },
+    {
+      "source": "W05a",
+      "page": 20,
+      "note": "07 Decoding"
+    },
+    {
+      "source": "W05a",
+      "page": 21,
+      "note": "07 Decoding"
+    }
+  ],
+  "validation": {
+    "source_pages": 189,
+    "notes": 13,
+    "assets": 7,
+    "wikilinks": 117,
+    "math_expressions": 597,
+    "mermaid_blocks": 4,
+    "errors": [],
+    "calculations": {
+      "cosine_knife_sword": 0.993848322297969,
+      "backprop_dLdh": -0.000455110590060892,
+      "bce_sum": 1.2649975061637106,
+      "macro": [
+        0.7388888888888889,
+        0.725,
+        0.7258490073145245
+      ],
+      "weighted": [
+        0.8111111111111111,
+        0.8222222222222222,
+        0.8122431208638105
+      ],
+      "accuracy_micro": 0.8222222222222222,
+      "cnn_map": [
+        28,
+        43,
+        37
+      ],
+      "lstm_hidden": [
+        0.3954296869923574,
+        -0.17150098982553516
+      ],
+      "seq2seq_avg_loss": 0.7675283643313485,
+      "bleu_original": 0.5045666840058485,
+      "bleu_short": 0.6065306597126334,
+      "cnn_2d": [
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "average_pool": [
+        [
+          13.0,
+          8.0
+        ],
+        [
+          79.0,
+          19.5
+        ]
+      ],
+      "attention_weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "attention_context": [
+        0.8,
+        0.6000000000000001
+      ],
+      "beam_top2": [
+        [
+          "BD",
+          0.36000000000000004
+        ],
+        [
+          "AC",
+          0.3
+        ]
+      ]
+    }
+  }
+}
