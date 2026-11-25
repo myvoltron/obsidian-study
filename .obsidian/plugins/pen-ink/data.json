@@ -1,0 +1,41 @@
+{
+  "tool": "pen",
+  "lastDrawTool": "pen",
+  "pen": {
+    "color": "#e03131",
+    "size": 2.5,
+    "type": "ball",
+    "dash": "solid",
+    "opacity": 1
+  },
+  "hl": {
+    "color": "#ffd400",
+    "size": 16,
+    "straight": false
+  },
+  "shape": {
+    "kind": "rect",
+    "color": "#1c7ed6",
+    "size": 2.5,
+    "dash": "solid",
+    "fill": null,
+    "rough": 1,
+    "edges": "sharp",
+    "opacity": 1
+  },
+  "eraser": {
+    "mode": "stroke",
+    "size": 12,
+    "only": "all",
+    "autoReturn": false
+  },
+  "favorites": [],
+  "recent": [],
+  "barPos": null,
+  "barVertical": false,
+  "fingerDraws": null,
+  "holdToStraighten": true,
+  "smoothing": 30,
+  "syncTipShown": true,
+  "folder": "Annotations"
+}
