@@ -9,5 +9,6 @@
   ],
   "monospaceFontFamily": "IoskeleyMonoNL Nerd Font",
   "textFontFamily": "",
-  "translucency": true
+  "translucency": true,
+  "showRibbon": true
 }
