@@ -1,0 +1,300 @@
+/* ==========================================================================
+   Pen Ink styles.
+   main.js only sets inline styles for values that change at runtime (positions,
+   sizes, your chosen colors), passed in as CSS variables (--pa-*). Everything
+   else lives here.
+
+   Buttons use `:not(#pa-x)` to add ID-level weight, so Obsidian's own button
+   styles (which are quite specific on mobile) can't override the toolbar's look.
+   ========================================================================== */
+
+/* Hidden. The two :not(#…) give it more weight than any display rule below (no "important" flag needed). */
+.pa-hidden:not(#pa-x):not(#pa-y) { display: none; }
+
+/* ----- ink on the page ----- */
+
+.pa-section { position: relative; }
+.pa-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+
+/* Highlighter layer: blended so the text stays crisp, as if the ink sat behind it. */
+.pa-layer-hl { mix-blend-mode: multiply; }
+/* Dark theme, on screen only: printed or exported pages are white, where "lighten" would hide highlights. */
+@media screen {
+  .theme-dark .pa-layer-hl { mix-blend-mode: lighten; }
+  .theme-dark .pa-layer-hl path { stroke-opacity: 0.6; }   /* dark backgrounds swallow 40% ink */
+  .theme-dark .pa-layer-hl .pa-fill { opacity: 0.55; }     /* light shape fills: keep white text readable */
+}
+
+/* Print and Export to PDF: keep the ink and its colors, drop the toolbar and selection UI. */
+@media print {
+  .pa-overlay { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .pa-toolbar, .pa-ui, .pa-selbox, .pa-lasso, .pa-laser, .pa-ring, .pa-halo { display: none; }
+}
+
+.pa-halo { stroke: var(--interactive-accent); stroke-opacity: 0.3; }
+
+.pa-annotating .markdown-preview-view {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  cursor: crosshair;
+}
+/* Eraser and laser: their ring / red dot is the pointer, so hide the crosshair. */
+.pa-annotating.pa-no-cursor .markdown-preview-view { cursor: none; }
+
+/* ----- things that follow the pointer ----- */
+
+.pa-ring {
+  position: absolute; left: 0; top: 0; z-index: 49; box-sizing: border-box;
+  width: var(--pa-d); height: var(--pa-d);
+  border-radius: 50%; border: 1.5px solid var(--text-muted);
+  background: rgba(127, 127, 127, 0.12);
+  pointer-events: none;
+}
+.pa-ring.is-partial { border-style: dashed; }
+
+.pa-lasso, .pa-laser { position: absolute; left: 0; top: 0; pointer-events: none; }
+.pa-lasso { z-index: 48; }
+.pa-laser { z-index: 49; }
+.pa-lasso svg, .pa-laser svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.pa-lasso path { fill: rgba(127, 127, 127, 0.08); stroke: var(--interactive-accent); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.pa-laser svg { filter: drop-shadow(0 0 3px rgba(255, 59, 48, 0.9)) drop-shadow(0 0 8px rgba(255, 59, 48, 0.5)); }
+
+.pa-selbox {
+  position: absolute; left: 0; top: 0; z-index: 47; box-sizing: border-box;
+  border: 1.5px dashed var(--interactive-accent); border-radius: 8px;
+  pointer-events: none;
+}
+/* Resize handles on the corners and a rotate knob hanging under the box (30px: KNOB_GAP in main.js). */
+.pa-selbox .pa-handle, .pa-selbox .pa-knob {
+  position: absolute; box-sizing: border-box; background: var(--background-primary);
+  border: 1.5px solid var(--interactive-accent); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+.pa-selbox .pa-handle { width: 14px; height: 14px; border-radius: 4px; }
+.pa-selbox .pa-handle.is-nw { left: -8.5px; top: -8.5px; }
+.pa-selbox .pa-handle.is-ne { right: -8.5px; top: -8.5px; }
+.pa-selbox .pa-handle.is-sw { left: -8.5px; bottom: -8.5px; }
+.pa-selbox .pa-handle.is-se { right: -8.5px; bottom: -8.5px; }
+.pa-selbox .pa-knob-stem { position: absolute; left: calc(50% - 0.75px); top: 100%; width: 0; height: 20px; border-left: 1.5px solid var(--interactive-accent); }
+.pa-selbox .pa-knob {
+  left: calc(50% - 11px); top: calc(100% + 20.5px); width: 22px; height: 22px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; color: var(--interactive-accent);
+}
+.pa-annotating.pa-cur-move .markdown-preview-view { cursor: move; }
+.pa-annotating.pa-cur-nwse .markdown-preview-view { cursor: nwse-resize; }
+.pa-annotating.pa-cur-nesw .markdown-preview-view { cursor: nesw-resize; }
+.pa-annotating.pa-cur-rotate .markdown-preview-view { cursor: grab; }
+
+/* ----- toolbar, cards and the selection menu ----- */
+
+.pa-ui {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: var(--font-interface, inherit);
+}
+.pa-ui svg { pointer-events: none; }
+.pa-card {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Placed by code (it measures where it lands), starting from the top-left corner. */
+.pa-toolbar { position: absolute; left: 0; top: 0; z-index: 50; }
+.pa-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 2px;
+  padding: 4px; border-radius: 16px; box-sizing: border-box;
+}
+.pa-favs { display: flex; align-items: center; gap: 2px; }
+.pa-toolbar.is-vertical .pa-row,
+.pa-toolbar.is-vertical .pa-favs { flex-direction: column; }
+
+.pa-sep { flex: none; width: 1px; height: 24px; margin: 0 4px; background: var(--background-modifier-border); }
+.pa-toolbar.is-vertical .pa-sep { width: 24px; height: 1px; margin: 4px 0; }
+
+.pa-grip {
+  display: flex; align-items: center; justify-content: center; flex: none;
+  width: 24px; height: 44px; border-radius: 10px;
+  color: var(--text-faint, var(--text-muted));
+  cursor: grab; touch-action: none; -webkit-tap-highlight-color: transparent;
+}
+.pa-grip.is-dragging { cursor: grabbing; }
+.pa-toolbar.is-vertical .pa-grip { width: 44px; height: 24px; }
+
+.pa-panel, .pa-selcard {
+  position: absolute; display: flex; flex-direction: column; gap: 8px;
+  padding: 12px 12px 10px; border-radius: 14px; box-sizing: border-box;
+}
+/* The options card opens next to the toolbar, on whichever side has room. */
+.pa-panel { top: calc(100% + 8px); right: 0; overflow-y: auto; }
+.pa-panel.is-up { top: auto; bottom: calc(100% + 8px); }
+.pa-panel.is-left { right: auto; left: 0; }
+.pa-toolbar.is-vertical .pa-panel { top: 0; right: calc(100% + 8px); }
+.pa-toolbar.is-vertical .pa-panel.is-up { top: auto; bottom: 0; }
+.pa-toolbar.is-vertical .pa-panel.is-left { right: auto; left: calc(100% + 8px); }
+.pa-selcard { left: 0; top: 0; z-index: 52; }
+.pa-selmenu {
+  position: absolute; left: 0; top: 0; z-index: 51; display: flex; flex-wrap: wrap; align-items: center;
+  gap: 2px; padding: 4px; border-radius: 14px;
+}
+
+/* Buttons. Base look, then sizes, then states. */
+.pa-ui .pa-btn:not(#pa-x) {
+  position: relative; display: flex; align-items: center; justify-content: center; flex: none;
+  width: 44px; height: 44px; min-width: 0; min-height: 0; padding: 0; margin: 0;
+  border: none; border-radius: 12px; box-shadow: none; background: transparent;
+  color: var(--text-muted); font: inherit; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+}
+.pa-ui .pa-btn:not(#pa-x) * { pointer-events: none; }
+.pa-ui .pa-btn.is-active:not(#pa-x) {
+  background: hsla(var(--accent-h, 258), var(--accent-s, 88%), var(--accent-l, 66%), 0.15);
+  color: var(--interactive-accent);
+}
+.pa-ui .pa-btn.is-dim:not(#pa-x) { opacity: 0.3; }
+
+.pa-ui .pa-btn-fav:not(#pa-x) { width: 40px; }
+.pa-ui .pa-btn-small:not(#pa-x) { width: 38px; height: 38px; }
+.pa-ui .pa-btn-wide:not(#pa-x) { width: 52px; height: 38px; border-radius: 10px; }
+.pa-ui .pa-btn-orient:not(#pa-x) { width: 30px; }
+.pa-toolbar.is-vertical .pa-btn-orient:not(#pa-x) { width: 44px; height: 30px; }
+.pa-ui .pa-btn-round:not(#pa-x) { width: 32px; height: 32px; border-radius: 50%; }
+
+.pa-ui .pa-btn-text:not(#pa-x) {
+  gap: 6px; width: auto; height: 34px; padding: 0 12px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; white-space: nowrap;
+}
+.pa-ui .pa-btn-done:not(#pa-x) {
+  width: auto; height: 36px; padding: 0 14px; margin: 0 2px 0 6px; border-radius: 10px;
+  background: var(--interactive-accent); color: var(--text-on-accent, #fff);
+  font-size: 14px; font-weight: 600; line-height: 1;
+}
+.pa-done-icon { display: none; }
+.pa-toolbar.is-vertical .pa-btn-done:not(#pa-x) { width: 40px; height: 40px; padding: 0; margin: 4px 0 2px; }
+.pa-toolbar.is-vertical .pa-done-text { display: none; }
+.pa-toolbar.is-vertical .pa-done-icon { display: block; }
+
+/* Under the pen / highlighter / shapes buttons: a bar in the tool's current color. */
+.pa-colorbar {
+  position: absolute; left: 14px; right: 14px; bottom: 6px; height: 3px; border-radius: 2px;
+  background: var(--pa-c);
+}
+.pa-colorbar.is-hl { opacity: 0.6; }
+.pa-raised { margin-top: -5px; }
+.pa-shape-icon { display: flex; margin-top: -5px; }
+
+/* Favorites: the tool's icon in its color, a line for thickness / dashes, and a gold star. */
+.pa-fav-icon { color: var(--pa-c); margin-top: -6px; }
+.pa-fav-line {
+  position: absolute; left: 11px; right: 11px; bottom: 7px; height: 0;
+  border-top: var(--pa-w) solid var(--pa-c); border-radius: 2px;
+}
+.pa-fav-line.is-dash { border-top-style: dashed; }
+.pa-fav-line.is-dot { border-top-style: dotted; }
+.pa-fav-line.is-hl { opacity: 0.6; }
+.pa-fav-star { position: absolute; top: 4px; right: 3px; fill: #f5b300; stroke: #f5b300; }
+
+/* Options button: a sliders icon with a dot in the current color. */
+.pa-opt { position: relative; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; }
+.pa-opt-dot {
+  position: absolute; right: -3px; bottom: -2px; width: 11px; height: 11px; box-sizing: border-box;
+  border-radius: 50%; background: var(--pa-c); box-shadow: 0 0 0 2px var(--background-primary);
+}
+.pa-opt-dot.is-hl { opacity: 0.7; }
+.pa-opt-dot.is-eraser { border: 1.5px solid var(--text-muted); background: var(--background-primary); box-shadow: none; }
+.pa-opt-dot.is-eraser.is-partial { border-style: dashed; }
+
+/* Inside the cards. */
+.pa-label {
+  margin-top: 4px; font-size: 11px; font-weight: 600; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--text-faint, var(--text-muted));
+}
+.pa-label.is-first { margin-top: 0; }
+.pa-hint { max-width: 250px; font-size: 12px; line-height: 1.35; color: var(--text-muted); }
+.pa-note { font-size: 13px; color: var(--text-muted); }
+
+.pa-grid { display: grid; grid-template-columns: repeat(6, 32px); gap: 8px; }
+.pa-sizes, .pa-widths { display: flex; gap: 4px; }
+.pa-fills { display: flex; align-items: center; gap: 6px; }
+
+/* Round color chips (swatches, fills, recolor). */
+.pa-chip {
+  display: block; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--pa-c); box-shadow: 0 0 0 1px rgba(127, 127, 127, 0.35);
+  transition: box-shadow 0.15s;
+}
+.pa-chip.is-small { width: 22px; height: 22px; }
+.pa-chip.is-tiny { width: 20px; height: 20px; }
+.pa-chip.is-on, .pa-wheel.is-on {
+  box-shadow: 0 0 0 2px var(--background-primary), 0 0 0 4px var(--interactive-accent);
+}
+.pa-chip-none { position: relative; overflow: hidden; background: transparent; box-shadow: 0 0 0 1px rgba(127, 127, 127, 0.5); }
+.pa-chip-slash {
+  position: absolute; left: 50%; top: -2px; width: 1.5px; height: 26px;
+  background: #e03131; transform: rotate(45deg);
+}
+
+/* Color wheel: a rainbow dot with the native color input laid invisibly on top. */
+.pa-wheel-wrap { position: relative; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; }
+.pa-wheel {
+  display: block; width: 24px; height: 24px; border-radius: 50%;
+  background: conic-gradient(#f44, #fd0, #4c4, #2cd, #46f, #c4f, #f44);
+  transition: box-shadow 0.15s; pointer-events: none;
+}
+.pa-ui .pa-wheel-input:not(#pa-x) {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  margin: 0; padding: 0; border: none; opacity: 0.01; cursor: pointer;
+}
+
+/* Segmented control [A | B | C] and the shape picker. */
+.pa-seg {
+  display: flex; gap: 2px; padding: 2px; border-radius: 10px;
+  background: var(--background-secondary, rgba(127, 127, 127, 0.12));
+}
+.pa-seg .pa-btn:not(#pa-x) { flex: 1; }
+.pa-ui .pa-seg .pa-btn.is-on:not(#pa-x) {
+  background: var(--background-primary); color: var(--text-normal);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.pa-ui .pa-btn-shape:not(#pa-x) { width: 48px; height: 38px; border-radius: 8px; }
+.pa-ui .pa-seg .pa-btn-shape.is-on:not(#pa-x) { color: var(--interactive-accent); }
+/* Nine shapes: a 5-wide grid (two rows) instead of one long row. */
+.pa-seg.pa-shape-grid { display: grid; grid-template-columns: repeat(5, 1fr); }
+.pa-ui .pa-shape-grid .pa-btn-shape:not(#pa-x) { width: auto; }
+
+/* On/off switch. */
+.pa-ui .pa-switch:not(#pa-x) { width: 100%; justify-content: space-between; padding: 0 2px; color: var(--text-normal); font-weight: 500; }
+.pa-switch-label { flex: 1; text-align: left; }
+.pa-track {
+  position: relative; flex: none; width: 38px; height: 22px; border-radius: 11px;
+  background: var(--background-modifier-border); transition: background 0.15s;
+}
+.pa-knob {
+  position: absolute; top: 2px; left: 2px; width: 18px; height: 18px; border-radius: 50%;
+  background: #fff; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); transition: transform 0.15s;
+}
+.pa-switch.is-on .pa-track { background: var(--interactive-accent); }
+.pa-switch.is-on .pa-knob { transform: translateX(16px); }
+
+/* Opacity slider. */
+.pa-slider { display: flex; align-items: center; gap: 8px; }
+.pa-ui .pa-range:not(#pa-x) { flex: 1; min-width: 150px; margin: 0; accent-color: var(--interactive-accent); }
+.pa-range-val { flex: none; width: 40px; text-align: right; font-size: 12px; color: var(--text-muted); }
+
+/* Eraser sizes: outlined circles. */
+.pa-eraser-dot {
+  display: block; box-sizing: border-box; width: var(--pa-d); height: var(--pa-d);
+  border-radius: 50%; border: 1.5px solid var(--text-muted);
+}
+.pa-eraser-dot.is-partial { border-style: dashed; }
+
+.pa-sample { stroke: var(--text-normal); }
+
+/* Pinch zoom: the reading view's box is scaled from its top-left corner; the note area clips it. */
+.pa-zoom-target { transform-origin: 0 0; }
+.pa-annotating.pa-zoomed { overflow: hidden; }
+.pa-ui .pa-btn-zoom:not(#pa-x) { font-size: 13px; font-weight: 700; color: var(--interactive-accent); }
+.pa-ui .pa-fav-toggle:not(#pa-x) { align-self: flex-start; padding: 0 8px; }
+.pa-ui .pa-fav-toggle.is-on:not(#pa-x) { color: var(--interactive-accent); }

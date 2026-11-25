@@ -1,0 +1,10 @@
+{
+  "id": "pen-ink",
+  "name": "Pen Ink",
+  "version": "1.16.0",
+  "minAppVersion": "1.4.0",
+  "description": "Draw, highlight, and add shapes on top of your notes in reading view with Apple Pencil, a stylus, or a mouse. Ink is saved separately and never changes your notes.",
+  "author": "zhuff99",
+  "authorUrl": "https://github.com/zhuff99",
+  "isDesktopOnly": false
+}

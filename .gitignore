@@ -1,2 +1,9 @@
 .obsidian/workspace
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 동기화 인증 정보
+.obsidian/plugins/obsidian-git/data.json
+
+# macOS
+.DS_Store
